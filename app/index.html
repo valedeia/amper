@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <base href="/">
-    <title></title>
+    <!-- <base href="/"> -->
+    <title>Laboratorio di Fonetica Sperimentale Arturo Genre di Torino</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -22,6 +22,28 @@
 
     <!-- Add your site or application content here -->
     <div class="header" ng-controller="MainCtrl">
+      <hgroup>
+        <div class="row">
+          <div class="col-md-3"><div class="logo_lab"><img src="images/LOGO.png" width="170" height="170"></div></div>
+          <div class="col-md-6"><div class="logo"><img src="images/onda_testo.png"><h1 style="display:none">Laboratorio di Fonetica Sperimentale Arturo Genre</h1></div></div>
+          <div class="col-md-3"><div class="logo_uni"><img src="images/logo_unito_10_marrone.png" width="324" height="170"></div></div>
+        </div>
+        <!--
+        <div class="logo_lab"><img src="images/LOGO.png" width="170" height="170"></div>
+        <div class="logo"><img src="images/onda_testo.png"><h1 style="display:none">Laboratorio di Fonetica Sperimentale Arturo Genre</h1></div>
+        <div class="logo_uni"><img src="images/logo_unito_10_marrone.png" width="324" height="170"></div>
+        -->
+      </hgroup>
+      <div class="toolbar">
+        <div class="col-lg-3">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Cerca...">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button">Vai!</button>
+            </span>
+          </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+      </div>   <!-- /.toolbar -->
       <div class="navbar navbar-default" role="navigation">
         <div class="container">
           <div class="navbar-header">
@@ -33,23 +55,68 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="/">lfsagAg</a>
+            <!-- <a class="navbar-brand" href="/">lfsagAg</a> -->
           </div>
 
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
             <ul class="nav navbar-nav">
-              <li ng-class="getClass('/')"><a href="/">Home</a></li>
-              <li ng-class="getClass('/about')"><a ng-href="/about">About</a></li>
-              <li><a class="dropdown-toggle" style="cursor:pointer;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Action
-              </a>
+              <!-- Home  -->
+              <li ng-class="getClass('/')"><a href="#/"><img src="images/home.png"/></a></li>
+              <!-- Laboratorio  -->
+              <li>
+                <a class="dropdown-toggle" style="cursor:pointer;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="images/laboratorio.png"/>
+                </a>
                 <ul class="dropdown-menu">
-                  <li><a href="/">Action</a></li>
-                  <li><a href="/">Another action</a></li>
-                  <li><a href="/">Something else here</a></li>
+                  <li><a href="#/">Action</a></li>
+                  <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Link 4</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Dropdown Submenu Link 4.1</a></li>
+                      <li><a href="#">Dropdown Submenu Link 4.2</a></li>
+                      <li><a href="#">Dropdown Submenu Link 4.3</a></li>
+                      <li><a href="#">Dropdown Submenu Link 4.4</a></li>
+                      <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown Link 5</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Dropdown Submenu Link 5.1</a></li>
+                          <li><a href="#">Dropdown Submenu Link 5.2</a></li>
+                          <li><a href="#/about">About</a></li>
+                          <li><a href="#">Dropdown Submenu Link 5.4</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="#/">Something else here</a></li>
                   <li role="separator" class="divider"></li>
-                  <li><a href="/about">About</a></li>
+                  <li><a href="#/about">About</a></li>
+                </ul>
+              </li>
+              <!-- Materiali  -->
+              <li>
+                <a class="dropdown-toggle" style="cursor:pointer;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="images/materiali.png"/>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#/">Action</a></li>
+                  <li><a href="##/">Another action</a></li>
+                  <li><a href="#/">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#/about">About</a></li>
+                </ul>
+              </li>
+              <!-- EQUIPE -->
+              <li ng-class="getClass('/equipe')"><a href="#/equipe"><img src="images/equipe.png"/></a></li>
+              <!-- Ricerca -->
+              <li>
+                <a class="dropdown-toggle" style="cursor:pointer;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="images/ricerca.png"/>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#/">Action</a></li>
+                  <li><a href="#/">Another action</a></li>
+                  <li><a href="#/">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#/about">About</a></li>
                 </ul>
               </li>
             </ul>
@@ -99,6 +166,7 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/controllers/equipe.js"></script>
         <!-- endbuild -->
 </body>
 </html>

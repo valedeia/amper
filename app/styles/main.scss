@@ -22,6 +22,14 @@ body {
   padding-right: 15px;
 }
 
+/* dropdown submenu */
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#555;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+
+
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
@@ -33,6 +41,43 @@ body {
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
+  }
+
+  .logo_lab{
+
+  }
+
+  .logo{
+
+  }
+
+  .logo_uni{
+    float: right;
+  }
+
+  hgroup {
+    margin: 20px 20px 20px 30px;
+  }
+}
+
+div.row.equipe {
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #e0e0f0;
+
+  .foto{
+    display: inline-block;
+    border: 2px solid black;
+  }
+
+  .info{
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .cv{
+    display: inline-block;
+    cursor: pointer;
   }
 }
 
@@ -70,7 +115,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 730px;
+    max-width: 820px;
   }
 
   /* Remove the padding we set earlier */

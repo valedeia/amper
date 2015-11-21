@@ -19,8 +19,8 @@ angular
     'ngTouch'
   ])
   .config(function ($routeProvider, $locationProvider) {
-    // use the HTML5 History API
-    $locationProvider.html5Mode(true);
+    // uncomment to use the HTML5 History API
+    //$locationProvider.html5Mode(true);
 
     $routeProvider
       .when('/', {
@@ -33,7 +33,23 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/equipe', {
+        templateUrl: 'views/equipe.html',
+        controller: 'EquipeCtrl',
+        controllerAs: 'equipe'
+      })
       .otherwise({
         redirectTo: '/'
       });
   });
+
+(function($){
+  $(document).ready(function(){
+    $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+      event.preventDefault();
+      event.stopPropagation();
+      $(this).parent().siblings().removeClass('open');
+      $(this).parent().toggleClass('open');
+    });
+  });
+})(jQuery);
