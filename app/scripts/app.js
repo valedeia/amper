@@ -28,6 +28,17 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
+      .when('/laboratorio', {
+        templateUrl: 'views/laboratorio.html'
+      })
+      .when('/laboratorio/comitato', {
+        templateUrl: 'views/comitato.html',
+        controller: 'ComitatoCtrl',
+        controllerAs: 'comitato'
+      })
+      .when('/laboratorio/partners', {
+        templateUrl: 'views/partners.html'
+      })
       .when('/about', {
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',

@@ -16,7 +16,7 @@ var personale = [
     "email": "v.deiacovo@gmail.com",
     "campi_ricerca": ['fonetica', 'dialettologia', 'intonazione'],
     "cv": "Cv Europass Valentina De Iacovo.pdf",
-    "sito_personale": ""
+    "sito": ""
   },
   {
     "nome": "Claudio",
