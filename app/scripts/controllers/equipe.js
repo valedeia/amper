@@ -14,17 +14,15 @@ var personale = [
     "cognome": "De Iacovo",
     "foto": "russo.jpg",
     "email": "v.deiacovo@gmail.com",
-    "campi_ricerca": ['fonetica', 'dialettologia', 'intonazione'],
-    "cv": "Cv Europass Valentina De Iacovo.pdf",
+    "posizione": 'dottoranda',
     "sito": ""
   },
   {
     "nome": "Claudio",
     "cognome": "Russo",
     "foto": "russo.jpg",
-    "email": "...",
-    "campi_ricerca": ['fonetica2', 'dialettologia2', 'intonazione2'],
-    "cv": "cv russo.pdf",
+    "email": "emailnome@email.du",
+    "posizione": 'dottorando',
     "sito": "http://www.google.com"
   }
 ];

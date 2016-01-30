@@ -5,9 +5,8 @@
   </div>
   <div class="media-body">
     <h4 class="media-heading">{{persona.nome}} {{persona.cognome}}</h4>
-    <p ng-show="persona.campi_ricerca.length">
-      Campi di ricerca:<br/>
-      <span ng-repeat="campo_ricerca in persona.campi_ricerca">{{campo_ricerca}} </span>
+    <p ng-show="persona.posizione.length">
+      <span >{{persona.posizione}} </span>
     </p>
     <p>
       {{persona.email}}
@@ -15,9 +14,6 @@
     <p ng-show="persona.sito">
       <a target="_blank" ng-href="{{persona.sito}}">{{persona.sito}}</a>
     </p>
-  </div>
-  <div class="media-right">
-    <img class="media-object" src="images/curriculum-vitae_low.jpg" width="170" height="170"/>
   </div>
 
 </div>
