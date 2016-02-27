@@ -15,6 +15,7 @@ var personale = [
     "foto": "russo.jpg",
     "email": "v.deiacovo@gmail.com",
     "posizione": 'dottoranda',
+    "collaboratore": "",
     "sito": ""
   },
   {
@@ -23,6 +24,7 @@ var personale = [
     "foto": "russo.jpg",
     "email": "emailnome@email.du",
     "posizione": 'dottorando',
+    "collaboratore": true,
     "sito": "http://www.google.com"
   }
 ];

@@ -18,7 +18,7 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
-  .config(function ($routeProvider, $locationProvider) {
+  .config(function ($routeProvider) { //$locationProvider
     // uncomment to use the HTML5 History API
     //$locationProvider.html5Mode(true);
 
@@ -63,4 +63,4 @@ angular
       $(this).parent().toggleClass('open');
     });
   });
-})(jQuery);
+})(angular.element);
