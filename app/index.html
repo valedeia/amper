@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <!-- <base href="/"> -->
-    <title>Laboratorio di Fonetica Sperimentale Arturo Genre di Torino</title>
+    <!-- <title>Laboratorio di Fonetica Sperimentale Arturo Genre di Torino</title>  -->
+    <title>Angular test...</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -15,6 +16,8 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" />
   </head>
   <body ng-app="lfsagAgApp">
     <!--[if lte IE 11]>
@@ -34,7 +37,7 @@
 
     <!-- Add your site or application content here -->
     <div class="header" ng-controller="MainCtrl">
-      <hgroup>
+      <!-- <hgroup>
         <div class="row">
           <div class="col-md-3"><div class="logo_lab"><img src="images/LOGO.png" width="170" height="170"></div></div>
           <div class="col-md-6"><div class="logo"><img src="images/onda_testo.png"><h1 style="display:none">Laboratorio di Fonetica Sperimentale Arturo Genre</h1></div></div>
@@ -49,7 +52,7 @@
         <div class="logo"><img src="images/onda_testo.png"><h1 style="display:none">Laboratorio di Fonetica Sperimentale Arturo Genre</h1></div>
         <div class="logo_uni"><img src="images/logo_unito_10_marrone.png" width="324" height="170"></div>
         -->
-      </hgroup>
+      <!-- </hgroup> -->
       <div class="toolbar">
         <div class="col-lg-3">
         <div class="input-group">
@@ -98,7 +101,7 @@
                   <img src="images/materiali.png"/>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a href="#/">Didattica</a></li>
+                  <li><a href="#/materiali/didattica">Didattica</a></li>
                   <li><a href="##/">Inventari sonori</a></li>
                   <li><a href="#/">Tabella IPA</a></li>
                 </ul>
@@ -163,16 +166,19 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/tooltipster/js/jquery.tooltipster.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <script src="scripts/controllers/equipe.js"></script>
-        <script src="scripts/controllers/comitato.js"></script>
-        <script src="scripts/controllers/didattica.js"></script>
-        <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <script src="scripts/controllers/about.js"></script>
+    <script src="scripts/controllers/equipe.js"></script>
+    <script src="scripts/controllers/comitato.js"></script>
+    <script src="scripts/controllers/didattica.js"></script>
+    <!-- endbuild -->
+
+    <script src="fancybox/jquery.fancybox.js"></script>
 </body>
 </html>

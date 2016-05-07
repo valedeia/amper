@@ -16,7 +16,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) { //$locationProvider
     // uncomment to use the HTML5 History API
@@ -38,6 +39,11 @@ angular
       })
       .when('/laboratorio/partners', {
         templateUrl: 'views/partners.html'
+      })
+      .when('/materiali/didattica', {
+        templateUrl: 'views/didattica.html',
+        controller: 'DidatticaCtrl',
+        controllerAs: 'didattica'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
