@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <!-- <base href="/"> -->
-    <!-- <title>Laboratorio di Fonetica Sperimentale Arturo Genre di Torino</title>  -->
-    <title>Angular test...</title>
+    <title>Laboratorio di Fonetica Sperimentale Arturo Genre di Torino</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/tooltipster/css/tooltipster.css" />
+    <link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -37,7 +37,7 @@
 
     <!-- Add your site or application content here -->
     <div class="header" ng-controller="MainCtrl">
-      <!-- <hgroup>
+      <hgroup>
         <div class="row">
           <div class="col-md-3"><div class="logo_lab"><img src="images/LOGO.png" width="170" height="170"></div></div>
           <div class="col-md-6"><div class="logo"><img src="images/onda_testo.png"><h1 style="display:none">Laboratorio di Fonetica Sperimentale Arturo Genre</h1></div></div>
@@ -52,7 +52,7 @@
         <div class="logo"><img src="images/onda_testo.png"><h1 style="display:none">Laboratorio di Fonetica Sperimentale Arturo Genre</h1></div>
         <div class="logo_uni"><img src="images/logo_unito_10_marrone.png" width="324" height="170"></div>
         -->
-      <!-- </hgroup> -->
+      </hgroup>
       <div class="toolbar">
         <div class="col-lg-3">
         <div class="input-group">
@@ -102,7 +102,7 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li><a href="#/materiali/didattica">Didattica</a></li>
-                  <li><a href="##/">Inventari sonori</a></li>
+                  <li><a href="#/materiali/inventari-sonori">Inventari sonori</a></li>
                   <li><a href="#/">Tabella IPA</a></li>
                 </ul>
               </li>
@@ -167,6 +167,8 @@
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/tooltipster/js/jquery.tooltipster.min.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/jqcloud2/dist/jqcloud.js"></script>
+    <script src="bower_components/angular-jqcloud/angular-jqcloud.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -177,6 +179,8 @@
     <script src="scripts/controllers/equipe.js"></script>
     <script src="scripts/controllers/comitato.js"></script>
     <script src="scripts/controllers/didattica.js"></script>
+    <script src="scripts/controllers/inventarisonori.js"></script>
+    <script src="scripts/directives/imgpopup1.js"></script>
     <!-- endbuild -->
 
     <script src="fancybox/jquery.fancybox.js"></script>
