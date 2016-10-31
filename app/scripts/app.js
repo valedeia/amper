@@ -30,15 +30,22 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/laboratorio', {
-        templateUrl: 'views/laboratorio.html'
+      .when('/guida', {
+        templateUrl: 'views/guida.html',
+        controller: 'GuidaCtrl',
+        controllerAs: 'guida'
       })
-      .when('/laboratorio/comitato', {
+      .when('/carte', {
+        templateUrl: 'views/carte.html',
+        controller: 'CarteCtrl',
+        controllerAs: 'carte'
+      })
+      /*.when('/laboratorio/comitato', {
         templateUrl: 'views/comitato.html',
         controller: 'ComitatoCtrl',
         controllerAs: 'comitato'
       })
-      .when('/laboratorio/partners', {
+      .when('/partners', {
         templateUrl: 'views/partners.html'
       })
       .when('/materiali/didattica', {
@@ -60,7 +67,7 @@ angular
         templateUrl: 'views/equipe.html',
         controller: 'EquipeCtrl',
         controllerAs: 'equipe'
-      })
+      })     */
       .otherwise({
         redirectTo: '/'
       });

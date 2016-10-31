@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!-- <base href="/"> -->
-    <title>Laboratorio di Fonetica Sperimentale Arturo Genre di Torino</title>
+    <title>AMPERE - Atlas Multimédia Prosodique de l'Espace Roman</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -40,7 +40,12 @@
       <hgroup>
         <div class="row">
           <div class="col-md-3"><div class="logo_lab"><img src="images/LOGO.png" width="170" height="170"></div></div>
-          <div class="col-md-6"><div class="logo"><img src="images/onda_testo.png"><h1 style="display:none">Laboratorio di Fonetica Sperimentale Arturo Genre</h1></div></div>
+          <div class="col-md-6">
+            <div style="text-align: center;" class="logo">
+              <img src="images/LogoAmperTransp.png"/>
+              <h2>Atlas Multimédia Prosodique de l'Espace Roman</h2>
+            </div>
+          </div>
           <div class="col-md-3"><div class="logo_uni">
             <a target="_blank" href="http://www.unito.it/">
               <img src="images/logo_unito_10_marrone.png" width="324" height="170">
@@ -55,7 +60,7 @@
       </hgroup>
       <div class="toolbar">
         <div class="col-lg-3">
-        <div class="input-group">
+        <!--<div class="input-group">
           <input type="text" class="form-control" placeholder="Cerca...">
             <span class="input-group-btn">
               <button class="btn btn-default" type="button">Vai!</button>
@@ -81,46 +86,10 @@
 
             <ul class="nav navbar-nav">
               <!-- Home  -->
-              <li ng-class="getClass('/')"><a href="#/"><img src="images/home.png"/></a></li>
-              <!-- Laboratorio  -->
-              <li>
-                <a class="dropdown-toggle" style="cursor:pointer;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <img src="images/laboratorio.png"/>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a href="#/laboratorio">Il laboratorio</a></li>
-                  <li><a href="#/laboratorio/comitato">Comitato scientifico</a></li>
-                  <li><a href="#/laboratorio/partners">Partner locali</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#/laboratorio/partners">Contatti</a></li>
-                </ul>
-              </li>
-              <!-- Materiali  -->
-              <li>
-                <a class="dropdown-toggle" style="cursor:pointer;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <img src="images/materiali.png"/>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a href="#/materiali/didattica">Didattica</a></li>
-                  <li><a href="#/materiali/inventari-sonori">Inventari sonori</a></li>
-                  <li><a href="#/">Tabella IPA</a></li>
-                </ul>
-              </li>
-              <!-- EQUIPE -->
-              <li ng-class="getClass('/equipe')"><a href="#/equipe"><img src="images/equipe.png"/></a></li>
-              <!-- Ricerca -->
-              <li>
-                <a class="dropdown-toggle" style="cursor:pointer;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <img src="images/ricerca.png"/>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a href="#/">Settori di ricerca</a></li>
-                  <li><a href="#/">Collaborazioni</a></li>
-                  <li><a href="#/">Tesi</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#/">Eventi</a></li>
-                </ul>
-              </li>
+              <li ng-class="getClass('/')"><a href="#/">Home</a></li>
+              <li><a href="#/guida">Guida</a></li>
+              <li><a href="#/carte">Carte</a></li>
+              <li><a href="#/partners">Partners</a></li>
             </ul>
           </div>
         </div>
@@ -133,27 +102,27 @@
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <!--<p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
         <div style="display: inline-block"><a style="display: inline-flex;" target="_blank" href="https://www.youtube.com/channel/UCV3Hbhexkpju8hmaLQmsIuQ">
           <img style="height: 80px;" src="images/YouTube-logo-full_color.png" />
         </a></div>
         <div class="fb-page" data-href="https://www.facebook.com/Laboratorio-di-Fonetica-Sperimentale-Arturo-Genre-504322583065501/?fref=ts" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"></div>
-      </div>
+      </div>    -->
     </div>
 
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-     <script>
-       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
-       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
-       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
-       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <!--<script>
+      !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+      (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+      r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+      }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');
-    </script>
+      ga('create', 'UA-XXXXX-X');
+      ga('send', 'pageview');
+   </script>   -->
 
-    <!-- build:js(.) scripts/vendor.js -->
+   <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
@@ -181,6 +150,9 @@
     <script src="scripts/controllers/didattica.js"></script>
     <script src="scripts/controllers/inventarisonori.js"></script>
     <script src="scripts/directives/imgpopup1.js"></script>
+    <script src="scripts/controllers/guida.js"></script>
+    <script src="scripts/controllers/carte.js"></script>
+    <script src="scripts/directives/pirect.js"></script>
     <!-- endbuild -->
 
     <script src="fancybox/jquery.fancybox.js"></script>
