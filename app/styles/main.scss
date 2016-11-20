@@ -32,6 +32,11 @@ body {
   cursor: pointer;
 }
 
+.navbar-nav {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 /* dropdown submenu */
 .dropdown-submenu{position:relative;}
 .dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
@@ -181,7 +186,49 @@ div.row.partners {
   }
 }
 
+.title_str {
+  margin:0 auto;
+  text-align: center;
+  display: table;
+  border: 1px solid;
+  padding: 0px 60px 10px;
+  border-radius: 15px;
+}
 
 .pirect {
   pointer-events: bounding-box;
+}
+
+.piView {
+  text-align: center;
+  background-color: white;
+  .frasi {
+    margin:0 auto;
+    display: table;
+    border: 1px solid;
+    padding: 15px 20px 26px 20px;
+    border-radius: 25px;
+  }
+  .frase {
+
+  }
+  .trascrizione {
+
+  }
+  .audio {
+    margin: 20px 0;
+    .aff {
+      float: left;
+      width: 50%;
+    }
+    .int {
+      float: right;
+      width: 50%;
+    }
+  }
+
+  img {
+    margin: 20px;
+    border: 1px solid;
+  }
 }

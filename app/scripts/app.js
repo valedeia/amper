@@ -40,6 +40,11 @@ angular
         controller: 'CarteCtrl',
         controllerAs: 'carte'
       })
+      .when('/partners', {
+        templateUrl: 'views/partners.html'
+      }).when('/contatti', {
+        templateUrl: 'views/contatti.html'
+      })
       /*.when('/laboratorio/comitato', {
         templateUrl: 'views/comitato.html',
         controller: 'ComitatoCtrl',
