@@ -71,7 +71,7 @@ angular.module('lfsagAgApp')
       'Karma'
     ];
     $scope.bubu = "bubu";
-    $scope.ampereData = data;
+    $scope.amperData = data;
     /*$scope.showdiv = function() {
 
       var compiledeHTML = $compile("<div>{{bubu}}</div>")($scope);
