@@ -15,7 +15,7 @@ var data = {
   },
   italiano : {
     frase: "A papera magna a patata",
-    trascrizione: "[a ˈpapera ˈmaɲ(a) a paˈtata]",
+    trascrizione: "[a ˈpapera ˈmaɲ:(a) a paˈtata]",
     imgDur: "files/ampere/0655pwt_dur_AI.jpg",
     imgF0: "files/ampere/0655pwt_F0_AI.jpg",
     audioTa: "files/ampere/0655pwta0_ton.wav",
