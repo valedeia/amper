@@ -13,53 +13,45 @@ var data = {
     etichettaTa: "aff.",
     etichettaTi: "int."
   },
-  italiano : {
-    frase: "A papera magna a patata",
-    trascrizione: "[a ˈpapera ˈmaɲ:(a) a paˈtata]",
+  roma : {
+    frase: "La papera mangia la patata",
+    trascrizione: "[la ˈpapera ˈmanʤa la paˈtata]",
     imgDur: "files/ampere/0655pwt_dur_AI.jpg",
     imgF0: "files/ampere/0655pwt_F0_AI.jpg",
     audioTa: "files/ampere/0655pwta0_ton.wav",
     audioTi: "files/ampere/0655pwti0_ton.wav"
   },
-  catalano : {
-    frase: "La crítica no polta la caputxa",
-    trascrizione: "[la ˈkɾitikɛ no ˈpɔrtɛ la kaˈput͡ʃɛ]",
-    imgDur: "files/ampere/je05pwt_dur_AI.jpg",
-    imgF0: "files/ampere/je05pwt_F0_AI.jpg",
-    audioTa: "files/ampere/je05pwta0_ton.wav",
-    audioTi: "files/ampere/je05pwti0_ton.wav"
+  parma : {
+    frase: "La papera mangia la patata",
+    trascrizione: "[la ˈpapera ˈmanʤa la paˈtata]",
+    imgDur: "files/ampere/06g6pwt_dur_AI.jpg",
+    imgF0: "files/ampere/06g6pwt_F0_AI.jpg",
+    audioTa: "files/ampere/06g6pwta0_ton.wav",
+    audioTi: "files/ampere/06g6pwti0_ton.wav"
   },
-  rumeno : {
-    frase: "Pasărea vede nevasta",
-    trascrizione: "[ˈpasǝre̯a ˈvede neˈvasta]",
-    imgDur: "files/ampere/9a05pwt_dur_AI.jpg",
-    imgF0: "files/ampere/9a05pwt_F0_AI.jpg",
-    audioTa: "files/ampere/9a05pwta0_ton.wav",
-    audioTi: "files/ampere/9a05pwti0_ton.wav"
+  firenze : {
+    frase: "La papera mangia la patata",
+    trascrizione: "[la ˈpapera ˈmanʤa la paˈtata]",
+    imgDur: "files/ampere/0704pwt_dur_AI.jpg",
+    imgF0: "files/ampere/0704pwt_F0_AI.jpg",
+    audioTa: "files/ampere/0704pwta0_ton.wav",
+    audioTi: "files/ampere/0704pwti0_ton.wav"
   },
-  galiziano : {
-    frase: "U pássaro toca no Toneca",
-    trascrizione: "[(u) ˈpasɐɾ(u) ˈtɔkɐ nu tuˈnɛkɐ]",
-    imgDur: "files/ampere/0061pwt_dur_AI.jpg",
-    imgF0: "files/ampere/0061pwt_F0_AI.jpg",
-    audioTa: "files/ampere/0061pwta0_ton.wav",
-    audioTi: "files/ampere/0061pwti0_ton.wav"
+  milano : {
+    frase: "La papera mangia la patata",
+    trascrizione: "[la ˈpapera ˈmanʤa la paˈtata]",
+    imgDur: "files/ampere/0684pwt_dur_AI.jpg",
+    imgF0: "files/ampere/0684pwt_F0_AI.jpg",
+    audioTa: "files/ampere/0684pwta0_ton.wav",
+    audioTi: "files/ampere/0684pwti0_ton.wav"
   },
-  brasiliano : {
-    frase: "U pássaro gosta de Renato",
-    trascrizione: "[u 'pasaɾu ˈɡɔʃtɐ du ɣe'natu]",
-    imgDur: "files/ampere/ba62pwt_dur_AI.jpg",
-    imgF0: "files/ampere/ba62pwt_F0_AI.jpg",
-    audioTa: "files/ampere/ba62pwta0_ton.wav",
-    audioTi: "files/ampere/ba62pwti0_ton.wav"
-  },
-  spagnolo : {
-    frase: "La cítara se toca con paciencia",
-    trascrizione: "[la ˈθitaɾa se ˈtoka kom paˈθjenθja]",
-    imgDur: "files/ampere/wc91pwt_dur_AI.jpg",
-    imgF0: "files/ampere/wc91pwt_F0_AI.jpg",
-    audioTa: "files/ampere/wc91pwta0_ton.wav",
-    audioTi: "files/ampere/wc91pwti0_ton.wav"
+  parabita : {
+    frase: "La papera mangia la patata",
+    trascrizione: "[la ˈpapera ˈmanʤa la paˈtata]",
+    imgDur: "files/ampere/0616pwt_dur_AI.jpg",
+    imgF0: "files/ampere/0616pwt_F0_AI.jpg",
+    audioTa: "files/ampere/0616pwta0_ton.wav",
+    audioTi: "files/ampere/0616pwti0_ton.wav"
   }
 };
 
