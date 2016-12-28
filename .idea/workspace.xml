@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dadebdba-de46-4ff3-8cd4-4815819a1c29" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/carte.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/carte.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/carte.html" afterPath="$PROJECT_DIR$/app/views/carte.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/partners.html" afterPath="$PROJECT_DIR$/app/views/partners.html" />
     </list>
     <ignored path="lfsag_ag.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,9 +50,11 @@
       <file leaf-file-name="carte.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/carte.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8939759">
-              <caret line="425" column="29" selection-start-line="425" selection-start-column="29" selection-end-line="425" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.18433735">
+              <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
               <folding>
+                <element signature="n#style#0;n#marker#0;n#defs#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#0;n#marker#0;n#defs#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#path#1;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#path#2;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
@@ -87,7 +88,6 @@
                 <element signature="n#style#0;n#rect#6;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#7;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#8;n#svg#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#rect#9;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#text#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#tspan#0;n#text#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#text#1;n#svg#0;n#div#0;n#!!top" expanded="true" />
@@ -98,14 +98,15 @@
                 <element signature="n#style#0;n#tspan#0;n#text#3;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#text#4;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#tspan#0;n#text#4;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#rect#9;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#10;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#11;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#13;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#14;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#15;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#16;n#svg#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#path#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#17;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#18;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#19;n#svg#0;n#div#0;n#!!top" expanded="true" />
@@ -115,6 +116,7 @@
                 <element signature="n#style#0;n#rect#23;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#24;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#25;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#rect#26;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#27;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#28;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#29;n#svg#0;n#div#0;n#!!top" expanded="true" />
@@ -122,7 +124,23 @@
                 <element signature="n#style#0;n#rect#31;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#32;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#33;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#text#5;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tspan#0;n#text#5;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#text#6;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tspan#0;n#text#6;n#svg#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#rect#34;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#text#7;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tspan#0;n#text#7;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#text#8;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tspan#0;n#text#8;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#rect#35;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#text#9;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tspan#0;n#text#9;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#text#10;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tspan#0;n#text#10;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#rect#36;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#text#11;n#svg#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tspan#0;n#text#11;n#svg#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,8 +149,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state vertical-scroll-proportion="-30.076923">
+              <caret line="199" column="18" selection-start-line="199" selection-start-column="18" selection-end-line="199" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -142,7 +160,7 @@
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/carte.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+              <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -252,15 +270,15 @@
         <option value="$PROJECT_DIR$/app/views/guida.html" />
         <option value="$PROJECT_DIR$/app/nameOfTemplate.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/pirect.js" />
-        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/views/contatti.html" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/files/ampere/template_view.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/carte.js" />
         <option value="$PROJECT_DIR$/app/views/partners.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/views/carte.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/carte.js" />
       </list>
     </option>
   </component>
@@ -1019,15 +1037,15 @@
       <workItem from="1479656368433" duration="846000" />
       <workItem from="1480187320505" duration="5866000" />
       <workItem from="1480267596200" duration="659000" />
-      <workItem from="1482073977434" duration="632000" />
+      <workItem from="1482073977434" duration="3256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109588000" />
+    <option name="totallyTimeSpent" value="112212000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1262,13 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56771797">
-          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -1556,14 +1567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1629,14 +1632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/carte.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/partners.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1655,11 +1650,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-30.076923">
+          <caret line="199" column="18" selection-start-line="199" selection-start-column="18" selection-end-line="199" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/carte.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="109" column="30" selection-start-line="109" selection-start-column="30" selection-end-line="109" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/carte.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8939759">
-          <caret line="425" column="29" selection-start-line="425" selection-start-column="29" selection-end-line="425" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.18433735">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
           <folding>
+            <element signature="n#style#0;n#marker#0;n#defs#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#marker#0;n#defs#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#path#1;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#path#2;n#g#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
@@ -1693,7 +1706,6 @@
             <element signature="n#style#0;n#rect#6;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#7;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#8;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#rect#9;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#text#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tspan#0;n#text#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#text#1;n#svg#0;n#div#0;n#!!top" expanded="true" />
@@ -1704,14 +1716,15 @@
             <element signature="n#style#0;n#tspan#0;n#text#3;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#text#4;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tspan#0;n#text#4;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#9;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#10;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#11;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#12;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#13;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#14;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#15;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#16;n#svg#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#path#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#17;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#18;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#19;n#svg#0;n#div#0;n#!!top" expanded="true" />
@@ -1721,6 +1734,7 @@
             <element signature="n#style#0;n#rect#23;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#24;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#25;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#26;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#27;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#28;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#29;n#svg#0;n#div#0;n#!!top" expanded="true" />
@@ -1728,7 +1742,23 @@
             <element signature="n#style#0;n#rect#31;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#32;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#33;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#5;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tspan#0;n#text#5;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#6;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tspan#0;n#text#6;n#svg#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#rect#34;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#7;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tspan#0;n#text#7;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#8;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tspan#0;n#text#8;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#35;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#9;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tspan#0;n#text#9;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#10;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tspan#0;n#text#10;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#rect#36;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#11;n#svg#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tspan#0;n#text#11;n#svg#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
