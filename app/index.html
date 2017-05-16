@@ -10,6 +10,7 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/tooltipster/css/tooltipster.css" />
+    <link rel="stylesheet" href="bower_components/fancybox/source/jquery.fancybox.css" />
     <link rel="stylesheet" href="bower_components/jqcloud2/dist/jqcloud.css" />
     <!-- endbower -->
     <!-- endbuild -->
@@ -37,27 +38,16 @@
 
     <!-- Add your site or application content here -->
     <div class="header" ng-controller="MainCtrl">
-      <hgroup>
+     <!--  <hgroup>
         <div class="row">
-          <!--<div class="col-md-3"><div class="logo_lab"><img src="images/LOGO.png" width="170" height="170"></div></div> -->
           <div class="col-md-12">
             <div style="text-align: center;" class="logo">
               <img src="images/LogoAmperTransp.png"/>
               <h2>Atlas Multimédia Prosodique de l'Espace Roman</h2>
             </div>
           </div>
-          <!--<div class="col-md-3"><div class="logo_uni">
-            <a target="_blank" href="http://www.unito.it/">
-              <img src="images/logo_unito_10_marrone.png" width="324" height="170">
-            </a>
-          </div></div>     -->
         </div>
-        <!--
-        <div class="logo_lab"><img src="images/LOGO.png" width="170" height="170"></div>
-        <div class="logo"><img src="images/onda_testo.png"><h1 style="display:none">Laboratorio di Fonetica Sperimentale Arturo Genre</h1></div>
-        <div class="logo_uni"><img src="images/logo_unito_10_marrone.png" width="324" height="170"></div>
-        -->
-      </hgroup>
+      </hgroup> -->
       <div class="toolbar">
         <div class="col-lg-3">
         <!--<div class="input-group">
@@ -69,6 +59,9 @@
         </div><!-- /.col-lg-6 -->
       </div>   <!-- /.toolbar -->
       <div class="navbar navbar-default" role="navigation">
+        <div class="logo">
+          <img src="images/LogoAmperTransp.png"/>
+        </div>
         <div class="container">
           <div class="navbar-header">
 
@@ -87,10 +80,11 @@
             <ul class="nav navbar-nav">
               <!-- Home  -->
               <li ng-class="getClass('/')"><a href="#/">Home</a></li>
-              <li><a href="#/guida">Guida</a></li>
-              <li><a href="#/carte">Carte</a></li>
-              <li><a href="#/partners">Partners</a></li>
-              <li><a href="#/contatti">Contatti</a></li>
+              <li ng-class="getClass('/guida')"><a href="#/guida">Guida</a></li>
+              <li ng-class="getClass('/carte_old')"><a href="#/carte_old">Carte old</a></li>
+              <li ng-class="getClass('/carte')"><a href="#/carte">Carte</a></li>
+              <li ng-class="getClass('/partners')"><a href="#/partners">Partners</a></li>
+              <li ng-class="getClass('/contatti')"><a href="#/contatti">Contatti</a></li>
             </ul>
           </div>
         </div>
@@ -136,6 +130,9 @@
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/tooltipster/js/jquery.tooltipster.min.js"></script>
+    <script src="bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script src="bower_components/fancybox/source/jquery.fancybox.js"></script>
+    <script src="bower_components/fancybox/source/jquery.fancybox.pack.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <script src="bower_components/jqcloud2/dist/jqcloud.js"></script>
     <script src="bower_components/angular-jqcloud/angular-jqcloud.js"></script>
@@ -154,6 +151,7 @@
     <script src="scripts/controllers/guida.js"></script>
     <script src="scripts/controllers/carte.js"></script>
     <script src="scripts/directives/pirect.js"></script>
+    <script src="scripts/directives/svg-test.js"></script>
     <!-- endbuild -->
 
     <script src="fancybox/jquery.fancybox.js"></script>

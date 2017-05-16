@@ -20,9 +20,11 @@ angular
     'ui.bootstrap',
     'angular-jqcloud'
   ])
-  .config(function ($routeProvider) { //$locationProvider
+  .config(function ($routeProvider,$locationProvider) { //$locationProvider
     // uncomment to use the HTML5 History API
     //$locationProvider.html5Mode(true);
+
+    $locationProvider.hashPrefix('');
 
     $routeProvider
       .when('/', {
@@ -39,6 +41,11 @@ angular
         templateUrl: 'views/carte.html',
         controller: 'CarteCtrl',
         controllerAs: 'carte'
+      })
+      .when('/carte_old', {
+        templateUrl: 'views/carte_old.html',
+        controller: 'CarteCtrl',
+        controllerAs: 'carteold'
       })
       .when('/partners', {
         templateUrl: 'views/partners.html'

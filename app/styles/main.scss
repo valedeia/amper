@@ -37,6 +37,14 @@ body {
   font-weight: bold;
 }
 
+.navbar .logo {
+  float: left;
+  margin-left: 20px;
+  img {
+    height: 50px;
+  }
+}
+
 /* dropdown submenu */
 .dropdown-submenu{position:relative;}
 .dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
@@ -98,6 +106,7 @@ div.row.equipe {
 
 /* Custom page footer */
 .footer {
+  margin-top: 30px;
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
@@ -193,6 +202,24 @@ div.row.partners {
   border: 1px solid;
   padding: 0px 60px 10px;
   border-radius: 15px;
+}
+
+div.cartina {
+
+}
+
+div.descrizione {
+  background-color: #0b0b0b;
+  height: 400px;
+}
+
+div.legenda {
+  background-color: #2b542c;
+  height: 250px;
+}
+
+svg.cartina {
+  height: 100%;
 }
 
 .pirect {
