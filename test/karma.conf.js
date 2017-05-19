@@ -39,6 +39,8 @@ module.exports = function(config) {
       'bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
       'bower_components/jqcloud2/dist/jqcloud.js',
       'bower_components/angular-jqcloud/angular-jqcloud.js',
+      'bower_components/angular-ui-router/release/angular-ui-router.js',
+      'bower_components/angular-breadcrumb/release/angular-breadcrumb.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       "app/scripts/**/*.js",
