@@ -19,6 +19,7 @@
     <!-- endbuild -->
 
     <link rel="stylesheet" href="fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" href="fonts/titillium/stylesheet.css" />
   </head>
   <body ng-app="lfsagAgApp">
     <!--[if lte IE 11]>
@@ -58,7 +59,7 @@
           </div><!-- /input-group -->
         </div><!-- /.col-lg-6 -->
       </div>   <!-- /.toolbar -->
-      <div class="navbar navbar-default" role="navigation">
+      <div class="navbar navbar-amper" role="navigation">
         <div class="logo">
           <img src="images/LogoAmperTransp.png"/>
         </div>
@@ -81,15 +82,17 @@
               <!-- Home  -->
               <li ng-class="getClass('/')"><a href="#/">Home</a></li>
               <li ng-class="getClass('/guida')"><a href="#/guida">Guida</a></li>
-              <li ng-class="getClass('/carte_old')"><a href="#/carte_old">Carte old</a></li>
-              <li ng-class="getClass('/carte')"><a href="#/carte">Carte</a></li>
+              <!--<li ng-class="getClass('/carte_old')"><a href="#/carte_old">Carte old</a></li>
+              <li ng-class="getClass('/carte')"><a href="#/carte">Carte</a></li>  -->
+              <li ng-class="getClass('/cartina/italia')"><a href="#/cartina/italia">Italia</a></li>
               <li ng-class="getClass('/partners')"><a href="#/partners">Partners</a></li>
               <li ng-class="getClass('/contatti')"><a href="#/contatti">Contatti</a></li>
+              <li ng-class="getClass('/sceltafrase')"><a href="#/sceltafrase">Test frase</a></li>
             </ul>
           </div>
         </div>
       </div>
-      <div ncy-breadcrumb></div>
+      <div ncy-breadcrumb class="breadcrumb-amper"></div>
     </div>
 
     <div class="container">
@@ -153,8 +156,11 @@
     <script src="scripts/directives/imgpopup1.js"></script>
     <script src="scripts/controllers/guida.js"></script>
     <script src="scripts/controllers/carte.js"></script>
+    <script src="scripts/controllers/cartina.js"></script>
     <script src="scripts/directives/pirect.js"></script>
     <script src="scripts/directives/svg-test.js"></script>
+    <script src="scripts/directives/codicifrasi.js"></script>
+    <script src="scripts/controllers/sceltafrase.js"></script>
     <!-- endbuild -->
 
     <script src="fancybox/jquery.fancybox.js"></script>

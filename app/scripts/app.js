@@ -23,14 +23,14 @@ angular
     'ncy-angular-breadcrumb'
   ])
 
-  .config(function($breadcrumbProvider) {
+  .config(function ($breadcrumbProvider) {
     $breadcrumbProvider.setOptions({
       prefixStateName: 'home',
-      template: 'bootstrap2'
+      template: 'bootstrap3'
     });
   })
 
-  .config(function($stateProvider, $urlRouterProvider, $locationProvider) {
+  .config(function ($stateProvider, $urlRouterProvider, $locationProvider) {
 
     $locationProvider.hashPrefix('');
 
@@ -55,6 +55,99 @@ angular
           label: 'Guida'
         }
       })
+      .state('cartina', {
+        url: '/cartina/{nazione}',
+        templateUrl: 'views/cartina.html',
+        controller: 'CartinaCtrl',
+        controllerAs: 'cartina',
+        ncyBreadcrumb: {
+          label: '{{nazioneLabel}}'
+        }
+      })
+      .state('carte', {
+        url: '/carte',
+        templateUrl: 'views/carte.html',
+        controller: 'CarteCtrl',
+        controllerAs: 'carte',
+        ncyBreadcrumb: {
+          label: 'carte'
+        }
+      })
+      .state('carte_old', {
+        url: '/carte_old',
+        templateUrl: 'views/carte_old.html',
+        controller: 'CarteCtrl',
+        controllerAs: 'carteold',
+        ncyBreadcrumb: {
+          label: 'carte_old'
+        }
+      })
+      .state('partners', {
+        url: '/partners',
+        templateUrl: 'views/partners.html',
+        ncyBreadcrumb: {
+          label: 'partners'
+        }
+      }).state('contatti', {
+        url: '/contatti',
+        templateUrl: 'views/contatti.html',
+        ncyBreadcrumb: {
+          label: 'contatti'
+        }
+      }).state('sceltafrase', {
+        url: '/sceltafrase',
+        templateUrl: 'views/sceltafrase.html',
+        controller: 'SceltafraseCtrl',
+        controllerAs: 'sceltafrase',
+        ncyBreadcrumb: {
+          label: 'sceltafrase'
+        }
+      })
+      .state('comitato', {
+        url: '/laboratorio/comitato',
+        templateUrl: 'views/comitato.html',
+        controller: 'ComitatoCtrl',
+        controllerAs: 'comitato',
+        ncyBreadcrumb: {
+          label: 'comitato'
+        }
+      })
+      .state('didattica', {
+        url: '/materiali/didattica',
+        templateUrl: 'views/didattica.html',
+        controller: 'DidatticaCtrl',
+        controllerAs: 'didattica',
+        ncyBreadcrumb: {
+          label: 'didattica'
+        }
+      })
+      .state('inventari-sonori', {
+        url: '/materiali/inventari-sonori',
+        templateUrl: 'views/inventari-sonori.html',
+        controller: 'InventarisonoriCtrl',
+        controllerAs: 'inventarisonori',
+        ncyBreadcrumb: {
+          label: 'inventari-sonori'
+        }
+      })
+      .state('about', {
+        url: '/about',
+        templateUrl: 'views/about.html',
+        controller: 'AboutCtrl',
+        controllerAs: 'about',
+        ncyBreadcrumb: {
+          label: 'about'
+        }
+      })
+      .state('equipe', {
+        url: '/equipe',
+        templateUrl: 'views/equipe.html',
+        controller: 'EquipeCtrl',
+        controllerAs: 'equipe',
+        ncyBreadcrumb: {
+          label: 'equipe'
+        }
+      })
       .state('sample', {
         url: '/sample',
         templateUrl: 'views/sample.html',
@@ -75,7 +168,7 @@ angular
         url: '/:year-:month-:day',
         templateUrl: 'views/booking_day.html',
         controller: 'BookingDayCtrl',
-        onExit: function($rootScope) {
+        onExit: function ($rootScope) {
           $rootScope.reservationDate = undefined;
         },
         ncyBreadcrumb: {
@@ -84,13 +177,13 @@ angular
       })
       .state('booking.day.detail', {
         url: '/{reservationId}',
-        onEnter: function($stateParams, $state, $modal) {
+        onEnter: function ($stateParams, $state, $modal) {
           $modal.open({
             templateUrl: "views/booking_detail.html",
             controller: 'BookingDetailCtrl'
-          }).result.then(function() {
+          }).result.then(function () {
             return $state.go("^");
-          }, function() {
+          }, function () {
             return $state.go("^");
           });
         },
@@ -110,7 +203,7 @@ angular
       .state('room.new', {
         url: '/new',
         views: {
-          "@" : {
+          "@": {
             templateUrl: 'views/room_form.html',
             controller: 'RoomDetailCtrl'
           }
@@ -122,7 +215,7 @@ angular
       .state('room.detail', {
         url: '/{roomId}?from',
         views: {
-          "@" : {
+          "@": {
             templateUrl: 'views/room_detail.html',
             controller: 'RoomDetailCtrl'
           }
@@ -137,7 +230,7 @@ angular
       .state('room.detail.edit', {
         url: '/edit',
         views: {
-          "@" : {
+          "@": {
             templateUrl: 'views/room_form.html',
             controller: 'RoomDetailCtrl'
           }
@@ -154,7 +247,7 @@ angular
     {roomId: 3, roomNumber: 103, type: 'Single'},
     {roomId: 4, roomNumber: 104, type: 'Double'}
   ])
-  .factory('reservations', function(dateUtils) {
+  .factory('reservations', function (dateUtils) {
     return [
       {reservationId: 1, guestName: 'Robert Smith', roomId: '2', from: dateUtils.addDays(-1), nights: 3},
       {reservationId: 2, guestName: 'John Doe', roomId: '3', from: dateUtils.addDays(-8), nights: 5},
@@ -163,12 +256,12 @@ angular
       {reservationId: 5, guestName: 'Tracy Marschall', roomId: '3', from: dateUtils.addDays(12), nights: 1}
     ];
   })
-  .factory('dateUtils', function() {
+  .factory('dateUtils', function () {
     return {
-      addDays: function(days, date) {
-        if(!date) {
+      addDays: function (days, date) {
+        if (!date) {
           var todayTime = new Date();
-          todayTime.setHours(0,0,0,0);
+          todayTime.setHours(0, 0, 0, 0);
           date = new Date(todayTime);
         }
 
@@ -178,90 +271,90 @@ angular
       }
     };
   })
-  .run(function($rootScope, $state) {
-    $rootScope.isActive = function(stateName) {
+  .run(function ($rootScope, $state) {
+    $rootScope.isActive = function (stateName) {
       return $state.includes(stateName);
     };
 
-    $rootScope.getLastStepLabel = function() {
+    $rootScope.getLastStepLabel = function () {
       return 'Angular-Breadcrumb';
     };
   });
 
-  /*.config(function ($routeProvider, $urlRouterProvider,$locationProvider) { //$locationProvider
-    // uncomment to use the HTML5 History API
-    //$locationProvider.html5Mode(true);
+/*.config(function ($routeProvider, $urlRouterProvider,$locationProvider) { //$locationProvider
+ // uncomment to use the HTML5 History API
+ //$locationProvider.html5Mode(true);
 
-    $locationProvider.hashPrefix('');
+ $locationProvider.hashPrefix('');
 
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main',
-        ncyBreadcrumb: {
-          label: 'Home page'
-        }
-      })
-      .when('/guida', {
-        templateUrl: 'views/guida.html',
-        controller: 'GuidaCtrl',
-        controllerAs: 'guida',
-        ncyBreadcrumb: {
-          label: 'Guida'
-        }
-      })
-      .when('/carte', {
-        templateUrl: 'views/carte.html',
-        controller: 'CarteCtrl',
-        controllerAs: 'carte'
-      })
-      .when('/carte_old', {
-        templateUrl: 'views/carte_old.html',
-        controller: 'CarteCtrl',
-        controllerAs: 'carteold'
-      })
-      .when('/partners', {
-        templateUrl: 'views/partners.html'
-      }).when('/contatti', {
-        templateUrl: 'views/contatti.html'
-      })
-      /*.when('/laboratorio/comitato', {
-        templateUrl: 'views/comitato.html',
-        controller: 'ComitatoCtrl',
-        controllerAs: 'comitato'
-      })
-      .when('/partners', {
-        templateUrl: 'views/partners.html'
-      })
-      .when('/materiali/didattica', {
-        templateUrl: 'views/didattica.html',
-        controller: 'DidatticaCtrl',
-        controllerAs: 'didattica'
-      })
-      .when('/materiali/inventari-sonori', {
-        templateUrl: 'views/inventari-sonori.html',
-        controller: 'InventarisonoriCtrl',
-        controllerAs: 'inventarisonori'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
-      })
-      .when('/equipe', {
-        templateUrl: 'views/equipe.html',
-        controller: 'EquipeCtrl',
-        controllerAs: 'equipe'
-      })     */
-      /*.otherwise({
-        redirectTo: '/'
-      });
-  });            */
+ $routeProvider
+ .when('/', {
+ templateUrl: 'views/main.html',
+ controller: 'MainCtrl',
+ controllerAs: 'main',
+ ncyBreadcrumb: {
+ label: 'Home page'
+ }
+ })
+ .when('/guida', {
+ templateUrl: 'views/guida.html',
+ controller: 'GuidaCtrl',
+ controllerAs: 'guida',
+ ncyBreadcrumb: {
+ label: 'Guida'
+ }
+ })
+ .when('/carte', {
+ templateUrl: 'views/carte.html',
+ controller: 'CarteCtrl',
+ controllerAs: 'carte'
+ })
+ .when('/carte_old', {
+ templateUrl: 'views/carte_old.html',
+ controller: 'CarteCtrl',
+ controllerAs: 'carteold'
+ })
+ .when('/partners', {
+ templateUrl: 'views/partners.html'
+ }).when('/contatti', {
+ templateUrl: 'views/contatti.html'
+ })
+ /*.when('/laboratorio/comitato', {
+ templateUrl: 'views/comitato.html',
+ controller: 'ComitatoCtrl',
+ controllerAs: 'comitato'
+ })
+ .when('/partners', {
+ templateUrl: 'views/partners.html'
+ })
+ .when('/materiali/didattica', {
+ templateUrl: 'views/didattica.html',
+ controller: 'DidatticaCtrl',
+ controllerAs: 'didattica'
+ })
+ .when('/materiali/inventari-sonori', {
+ templateUrl: 'views/inventari-sonori.html',
+ controller: 'InventarisonoriCtrl',
+ controllerAs: 'inventarisonori'
+ })
+ .when('/about', {
+ templateUrl: 'views/about.html',
+ controller: 'AboutCtrl',
+ controllerAs: 'about'
+ })
+ .when('/equipe', {
+ templateUrl: 'views/equipe.html',
+ controller: 'EquipeCtrl',
+ controllerAs: 'equipe'
+ })     */
+/*.otherwise({
+ redirectTo: '/'
+ });
+ });            */
 
-(function($){
-  $(document).ready(function(){
-    $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function(event) {
+(function ($) {
+  $(document).ready(function () {
+    $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function (event) {
       event.preventDefault();
       event.stopPropagation();
       $(this).parent().siblings().removeClass('open');

@@ -1,0 +1,18 @@
+.breadcrumb-amper {
+  padding: 8px 15px;
+  margin-bottom: 0px !important;
+  background-color: rgba(234,195,220,1) !important;
+  border-radius: 0px !important;
+
+
+  > li {
+
+    + li:before {
+      color: dimgrey !important;
+    }
+  }
+
+  > .active {
+    color: darkblue !important;
+  }
+}

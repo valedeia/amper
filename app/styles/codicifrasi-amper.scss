@@ -1,0 +1,41 @@
+div.codicefrase {
+
+  span{
+    width: 50px;
+    height: 50px;
+    margin-right: 2px;
+    display: inline-block;
+  }
+
+  div.syntax {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  div.S {
+    span{
+      border: 2px solid #973485;
+    }
+    span.active{
+      background-color: #973485;
+    }
+  }
+
+  div.V {
+    span{
+      border: 2px solid #178779;
+    }
+    span.active{
+      background-color: #178779;
+    }
+  }
+
+  div.O {
+    span{
+      border: 2px solid #779b3d;
+    }
+    span.active{
+      background-color: #779b3d;
+    }
+  }
+}

@@ -7,6 +7,11 @@ $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bo
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 @import "../../bower_components/font-awesome/scss/font-awesome.scss";
 
+@import "navbar-amper.scss";
+@import "breadcrumb-amper.scss";
+@import "codicifrasi-amper.scss";
+@import "developer.scss";
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -16,6 +21,7 @@ $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bo
 
 body {
   padding: 0;
+  font-family: TitilliumRegular;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -30,6 +36,11 @@ body {
   background-color: #0d3349;
   color: #f5f5ff;
   cursor: pointer;
+}
+
+.navbar.amperstyle {
+  background-color: white;
+  border: none;
 }
 
 .navbar-nav {
@@ -204,18 +215,47 @@ div.row.partners {
   border-radius: 15px;
 }
 
-div.cartina {
+.box-shadow-green {
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(220, 235, 191, 1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(220, 235, 191, 1);
+  box-shadow: 10px 10px 0px 0px rgba(220, 235, 191, 1);
 
+  border: 5px solid rgba(220, 235, 191, 1);
+  margin-bottom: 20px;
+}
+
+.box-shadow-pink {
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(234,195,220,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(234,195,220,1);
+  box-shadow: 10px 10px 0px 0px rgba(234,195,220,1);
+
+  border: 5px solid rgba(234,195,220,1);
+  margin-bottom: 20px;
+}
+
+div.cartina {
+  div.box {
+  }
 }
 
 div.descrizione {
-  background-color: #0b0b0b;
-  height: 400px;
+  .title {
+    margin-top: 0px;
+    font-family: TitilliumBold;
+  }
 }
 
 div.legenda {
-  background-color: #2b542c;
-  height: 250px;
+
+  div.box {
+    img {
+      width: 100%;
+    }
+  }
+
+  .title {
+    padding: 0px 18px;
+  }
 }
 
 svg.cartina {
