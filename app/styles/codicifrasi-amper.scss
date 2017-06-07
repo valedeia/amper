@@ -12,6 +12,12 @@ div.codicefrase {
     margin-right: 20px;
   }
 
+  div.syntax.usable {
+    span {
+      cursor: pointer;
+    }
+  }
+
   div.S {
     span{
       border: 2px solid #973485;
