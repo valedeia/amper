@@ -1,9 +1,12 @@
 <div class="cartina col-md-4">
-    <div class="box box-shadow-green" ng-include="'files/ampere/cartine/' + nazione + '.svg'"></div>
+    <div class="box box-shadow-green" ng-include="'files/ampere/cartine/' + nazioneP + '.svg'"></div>
+    <div class="area-label">
+        {{areaLabel | uppercase}}
+    </div>
 </div>
 
 <div class="descrizione col-md-4">
-    <h2 class="title">{{nazioneLabel | uppercase}}</h2>
+    <h2 class="title">{{nazioneData.label | uppercase}}</h2>
     <p class="descrizione">
         Possibile testo con descrizione... orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor in neque in ultricies. Curabitur faucibus, dui nec bibendum fermentum, purus ante vehicula arcu, at gravida orci enim eu sapien.
     </p>
@@ -12,11 +15,12 @@
 <div class="legenda col-md-4">
     <div class="box box-shadow-pink">
         <h3 class="title">Scopri come leggere la carta!</h3>
-        <img ng-src="/images/amper/{{nazione}}_aree_legenda.svg"/>
+        <img ng-src="images/amper/{{nazioneP}}_aree_legenda.svg" imageonload="svgLoaded"/>
+
     </div>
 </div>
 
-<div class="test">
+<!-- <div class="test">
     <a href="/#/guida">Guida</a>
-</div>
+</div>  -->
 

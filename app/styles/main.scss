@@ -236,6 +236,10 @@ div.row.partners {
 div.cartina {
   div.box {
   }
+
+  div.area-label {
+    text-align: right;
+  }
 }
 
 div.descrizione {
@@ -260,6 +264,10 @@ div.legenda {
 
 svg.cartina {
   height: 100%;
+}
+
+svg .areagroup.active {
+  cursor: pointer;
 }
 
 .pirect {

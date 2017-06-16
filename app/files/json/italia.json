@@ -3,7 +3,8 @@
   "aree": {
     "i1": {
       "active": true,
-      "label": "Area: centrale"
+      "label": "Area: centrale",
+      "shortName": "centrale"
     },
     "i2": {
       "active": false,

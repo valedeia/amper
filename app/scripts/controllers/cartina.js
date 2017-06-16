@@ -9,16 +9,46 @@
  */
 
 angular.module('lfsagAgApp')
-  .controller('CartinaCtrl', ['$scope', '$stateParams', '$http', function($scope, $stateParams, $http) {
-    $scope.nazione =  $stateParams.nazione;
-    $scope.bubu = "bubu";
+  .controller('CartinaCtrl', ['$scope', '$stateParams', '$http', '$q', 'sharedAmper', function($scope, $stateParams, $http, $q, sharedAmper) {
+    $scope.nazioneP = $stateParams.nazioneP;
+    $scope.svgLoaded = false;
+    $scope.areaLabel = "";
+    $scope.setAreaLabel = function(label){
+      $scope.areaLabel = label;
+    };
 
-    $http.get('/files/json/' + $scope.nazione + '.json')
-      .then(function (data) {
-        $scope.jsonData = data.data;
-        $scope.nazioneLabel = $scope.jsonData.label;
-        //$scope.leggendaFilename = $scope.jsonData.leggendaFilename;
-      },function (data) {
-        console.log("there was an error:", data);
+    var svgLoadDeferred = $q.defer();
+    var getDataDeferred = $q.defer();
+
+    sharedAmper.getNazione($scope.nazioneP).then(function(jsonNazione){
+      $scope.nazioneData = jsonNazione;
+      console.log("done getNazione");
+      getDataDeferred.resolve();
     });
+
+    $scope.svgLoaded = function() {
+      sharedAmper.getNazione($scope.nazioneP).then(function () {
+        console.log("svg loaded");
+        $scope.svgLoaded = true;
+        svgLoadDeferred.resolve();
+      });
+    };
+
+    $q.all([svgLoadDeferred.promise, getDataDeferred.promise]).then(
+      function() {
+        $scope.Status1 = 'Done';
+        for(var areaId in $scope.nazioneData.aree){
+          if ($scope.nazioneData.aree[areaId].active){
+            angular.element("svg .areagroup." + areaId).addClass("active");
+          }
+        }
+      },
+      function() {
+        $scope.Status1 = 'Failed';
+      }
+    ).finally(function() {
+      $scope.Status2 = 'Done waiting';
+
+    });
+
   }]);
