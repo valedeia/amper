@@ -55,7 +55,7 @@ angular
           label: 'Guida'
         }
       })
-      .state('cartina', {
+      .state('nazione', {
         url: '/cartina/{nazioneP}',
         templateUrl: 'views/cartina.html',
         controller: 'CartinaCtrl',
@@ -69,16 +69,16 @@ angular
         controller: 'AreaCtrl',
         controllerAs: 'area',
         ncyBreadcrumb: {
-          label: 'area',
-          parent: 'cartina'
+          label: '{{areaLabel}}',
+          parent: 'nazione'
         }
       }).state('pi', {
         url: '/cartina/{nazioneP}/{areaP}/{piP}',
-        templateUrl: 'views/pi.html',
-        controller: 'PiCtrl',
-        controllerAs: 'pi',
+        templateUrl: 'views/area.html',
+        controller: 'AreaCtrl',
+        controllerAs: 'area',
         ncyBreadcrumb: {
-          label: 'pi',
+          label: '{{piLabel}}',
           parent: 'area'
         }
       })

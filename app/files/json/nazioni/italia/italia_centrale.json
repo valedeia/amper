@@ -1,0 +1,21 @@
+{
+  "sottoaree": {
+    "065": {
+      "label": "laziale romano"
+    }
+  },
+  "cities":{
+    "roma": {
+      "label": "Roma",
+      "active": true,
+      "sottoarea": "065",
+      "locutori": ["0655", "0656"]
+    },
+    "frosinone": {
+      "label": "Frosinone",
+      "active": true,
+      "sottoarea": "065",
+      "locutori": ["0652", "0651"]
+    }
+  }
+}

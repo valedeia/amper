@@ -234,7 +234,8 @@ div.row.partners {
 }
 
 div.cartina {
-  div.box {
+  div.box.area {
+    padding: 6px;
   }
 
   div.area-label {
@@ -268,6 +269,14 @@ svg.cartina {
 
 svg .areagroup.active {
   cursor: pointer;
+}
+
+svg .pigroup.active {
+  cursor: pointer;
+}
+svg .pigroup.active.selected {
+  fill: red;
+  transition: all 0.4s ease-in-out;
 }
 
 .pirect {

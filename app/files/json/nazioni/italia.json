@@ -1,10 +1,9 @@
 {
   "label": "Italia",
   "aree": {
-    "i1": {
+    "centrale": {
       "active": true,
-      "label": "Area: centrale",
-      "shortName": "centrale"
+      "label": "Area: centrale"
     },
     "i2": {
       "active": false,

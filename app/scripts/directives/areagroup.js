@@ -38,10 +38,10 @@ angular.module('lfsagAgApp')
         });
         element.on("click", function () {
           if (angular.element(this).hasClass("active")){
-            console.log("svg active click");//DEBUG
+            console.log("svg area active click");//DEBUG
             var areacode = element.attr("areacode") || "";
             if (areacode && scope.nazioneData.aree.hasOwnProperty(areacode)){
-              var shortName = scope.nazioneData.aree[areacode].shortName;
+              var shortName = areacode; //scope.nazioneData.aree[areacode].shortName;
               scope.$apply(function(){
                 location.url('/cartina/' + scope.nazioneP + '/' + shortName);
               });

@@ -16,14 +16,16 @@ angular.module('lfsagAgApp')
     };*/
 
     var promiseNazione;
+    var nomeNazione="";
+    var promiseArea;
+    var nomeArea="";
+
     var sharedAmper = {
       "getNazione": function (nazione) {
-        if (!promiseNazione) {
-          promiseNazione = $http.get('files/json/' + nazione + '.json')
-            .then(function (response) {
-              // The then function here is an opportunity to modify the response
-              console.log(response);
-              // The return value gets picked up by the then in the controller.
+        if (!promiseNazione || nomeNazione !== nazione) {
+          promiseNazione = $http.get('files/json/nazioni/' + nazione + '.json')
+            .then(function (response) { // The then function here is an opportunity to modify the response
+              //console.log(response); // The return value gets picked up by the then in the controller.
               return response.data;
             }, function (data) {
               console.error("there was an error:", data);
@@ -32,16 +34,17 @@ angular.module('lfsagAgApp')
         }
         return promiseNazione;
       }, "getArea": function (nazione, area) {
-        return $http.get('files/json/' + nazione + '_' + area + '.json')
-          .then(function (response) {
-            // The then function here is an opportunity to modify the response
-            console.log(response);
-            // The return value gets picked up by the then in the controller.
-            return response.data;
-          },function (data) {
-            console.error("there was an error:", data);
-            return {};
-          });
+        if (!promiseArea || nomeNazione !== nazione || nomeArea !== area) {
+          promiseArea = $http.get('files/json/nazioni/' + nazione + '/' + nazione + '_' + area + '.json')
+            .then(function (response) { // The then function here is an opportunity to modify the response
+              //console.log(response); // The return value gets picked up by the then in the controller.
+              return response.data;
+            }, function (data) {
+              console.error("there was an error:", data);
+              return {};
+            });
+        }
+        return promiseArea;
       }
     };
 
