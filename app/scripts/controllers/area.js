@@ -17,6 +17,7 @@ angular.module('lfsagAgApp')
     $scope.setPiLabel = function(label){
       $scope.piLabel = label;
     };
+    $scope.locutori= [];
 
     var svgLoadDeferred = $q.defer();
     var getNazioneDeferred = $q.defer();
@@ -33,6 +34,10 @@ angular.module('lfsagAgApp')
       $scope.areaData = jsonArea;
       console.log("done getArea");
       getAreaDeferred.resolve();
+
+      if ($scope.piP && $scope.areaData.cities.hasOwnProperty($scope.piP)){
+        $scope.locutori =  $scope.areaData.cities[$scope.piP].locutori;
+      }
     });
 
     $scope.svgLoaded = function() {

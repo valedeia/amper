@@ -45,7 +45,7 @@ angular.module('lfsagAgApp')
             if (picode && scope.areaData.cities.hasOwnProperty(picode)){
               var shortName = picode; //scope.nazioneData.aree[picode].shortName;
               scope.$apply(function(){
-                location.url('/cartina/' + scope.nazioneP + '/' + scope.areaP + '/' + shortName);
+                location.url('/map/' + scope.nazioneP + '/' + scope.areaP + '/' + shortName);
               });
             }
           }

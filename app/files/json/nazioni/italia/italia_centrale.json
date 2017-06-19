@@ -9,13 +9,20 @@
       "label": "Roma",
       "active": true,
       "sottoarea": "065",
-      "locutori": ["0655", "0656"]
+      "locutori": {
+        "0655": {
+          "varietà": ""
+        },
+        "0656": {
+          "varietà": ""
+        }
+      }
     },
     "frosinone": {
       "label": "Frosinone",
       "active": true,
       "sottoarea": "065",
-      "locutori": ["0652", "0651"]
+      "locutori": ["0652", "0651", "1", "2", "3", "4", "5"]
     }
   }
 }

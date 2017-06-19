@@ -1,22 +1,29 @@
 <div class="cartina col-md-4">
-    <div class="box area box-shadow-green" ng-include="'files/ampere/cartine/' + nazioneP + '/' + nazioneP + '_' + areaP + '.svg'"></div>
+    <div class="box area box-shadow-green" ng-include="'files/ampere/cartine/' + nazioneP + '/' + nazioneP + '_' + areaP + '.svg'" onload="svgLoaded()"></div>
     <div class="area-label">
         {{piLabel | uppercase}}
     </div>
 </div>
 
-<div class="descrizione col-md-4">
+<div class="descrizione" ng-class="{'col-md-8': !piP, 'col-md-4': piP}">
     <h2 class="title">{{nazioneData.label | uppercase}}</h2>
     <h3 class="title">{{areaLabel | uppercase}}</h3>
     <p class="descrizione">
         Possibile testo con descrizione... orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor in neque in ultricies. Curabitur faucibus, dui nec bibendum fermentum, purus ante vehicula arcu, at gravida orci enim eu sapien.
     </p>
+    <div class="guida" ng-hide="piP">
+        <h4 class="title">Guida</h4>
+        <p class="descrizione">
+            Selezionare un punto sulla mappa per continuare
+        </p>
+    </div>
 </div>
 
-<div class="legenda col-md-4">
+<div class="locutori col-md-4" ng-show="piP">
     <div class="box box-shadow-pink">
-        <h3 class="title">Scopri come leggere la carta!</h3>
-        <img ng-src="images/amper/{{nazioneP}}_aree_legenda.svg" imageonload="svgLoaded"/>
+        <div class="locutore loc-row" ng-repeat="loc in locutori">
+           Locutore {{$index +1}} - {{piLabel}}
+        </div>
 
     </div>
 </div>

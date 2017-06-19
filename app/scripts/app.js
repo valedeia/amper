@@ -56,7 +56,7 @@ angular
         }
       })
       .state('nazione', {
-        url: '/cartina/{nazioneP}',
+        url: '/map/{nazioneP}',
         templateUrl: 'views/cartina.html',
         controller: 'CartinaCtrl',
         controllerAs: 'cartina',
@@ -64,7 +64,7 @@ angular
           label: '{{nazioneData.label}}'
         }
       }).state('area', {
-        url: '/cartina/{nazioneP}/{areaP}',
+        url: '/map/{nazioneP}/{areaP}',
         templateUrl: 'views/area.html',
         controller: 'AreaCtrl',
         controllerAs: 'area',
@@ -73,7 +73,7 @@ angular
           parent: 'nazione'
         }
       }).state('pi', {
-        url: '/cartina/{nazioneP}/{areaP}/{piP}',
+        url: '/map/{nazioneP}/{areaP}/{piP}',
         templateUrl: 'views/area.html',
         controller: 'AreaCtrl',
         controllerAs: 'area',

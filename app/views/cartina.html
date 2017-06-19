@@ -1,5 +1,5 @@
 <div class="cartina col-md-4">
-    <div class="box box-shadow-green" ng-include="'files/ampere/cartine/' + nazioneP + '.svg'"></div>
+    <div class="box box-shadow-green" ng-include="'files/ampere/cartine/' + nazioneP + '.svg'" onload="svgLoaded()"></div>
     <div class="area-label">
         {{areaLabel | uppercase}}
     </div>
@@ -15,7 +15,7 @@
 <div class="legenda col-md-4">
     <div class="box box-shadow-pink">
         <h3 class="title">Scopri come leggere la carta!</h3>
-        <img ng-src="images/amper/{{nazioneP}}_aree_legenda.svg" imageonload="svgLoaded"/>
+        <img ng-src="images/amper/{{nazioneP}}_aree_legenda.svg"/>
 
     </div>
 </div>

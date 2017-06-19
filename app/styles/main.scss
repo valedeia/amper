@@ -233,6 +233,12 @@ div.row.partners {
   margin-bottom: 20px;
 }
 
+div.guida{
+  background-color: rgb(251, 243, 248);
+  border: 1px solid rgba(234,195,220,1);
+  padding: 8px;
+}
+
 div.cartina {
   div.box.area {
     padding: 6px;
@@ -250,7 +256,7 @@ div.descrizione {
   }
 }
 
-div.legenda {
+div.legenda, div.locutori {
 
   div.box {
     img {
@@ -260,6 +266,21 @@ div.legenda {
 
   .title {
     padding: 0px 18px;
+  }
+}
+
+div.locutori{
+  height: 400px;
+
+  div.box{
+    height:100%;
+    overflow-y: auto;
+
+    div.locutore.loc-row{
+      border: 4px solid #dbeabf;
+      height: 80px;
+      margin: 10px;
+    }
   }
 }
 
@@ -276,7 +297,7 @@ svg .pigroup.active {
 }
 svg .pigroup.active.selected {
   fill: red;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .pirect {

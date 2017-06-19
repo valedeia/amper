@@ -43,7 +43,7 @@ angular.module('lfsagAgApp')
             if (areacode && scope.nazioneData.aree.hasOwnProperty(areacode)){
               var shortName = areacode; //scope.nazioneData.aree[areacode].shortName;
               scope.$apply(function(){
-                location.url('/cartina/' + scope.nazioneP + '/' + shortName);
+                location.url('/map/' + scope.nazioneP + '/' + shortName);
               });
             }
           }
