@@ -81,6 +81,24 @@ angular
           label: '{{piLabel}}',
           parent: 'area'
         }
+      }).state('sceltafrase', {
+        url: '/map/{nazioneP}/{areaP}/{piP}/{locP}',
+        templateUrl: 'views/sceltafrase.html',
+        controller: 'SceltafraseCtrl',
+        controllerAs: 'sceltafrase',
+        ncyBreadcrumb: {
+          label: 'Locutore {{locNumber}}',
+          parent: 'pi'
+        }
+      }).state('ascoltafrase', {
+        url: '/map/{nazioneP}/{areaP}/{piP}/{locP}/{structP}',
+        templateUrl: 'views/ascoltafrase.html',
+        controller: 'AscoltafraseCtrl',
+        controllerAs: 'ascoltafrase',
+        ncyBreadcrumb: {
+          label: 'struttura {{structP}}',
+          parent: 'sceltafrase'
+        }
       })
       .state('carte', {
         url: '/carte',
@@ -111,14 +129,6 @@ angular
         templateUrl: 'views/contatti.html',
         ncyBreadcrumb: {
           label: 'contatti'
-        }
-      }).state('sceltafrase', {
-        url: '/sceltafrase',
-        templateUrl: 'views/sceltafrase.html',
-        controller: 'SceltafraseCtrl',
-        controllerAs: 'sceltafrase',
-        ncyBreadcrumb: {
-          label: 'sceltafrase'
         }
       })
       .state('comitato', {

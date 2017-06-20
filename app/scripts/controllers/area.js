@@ -8,16 +8,25 @@
  * Controller of the lfsagAgApp
  */
 angular.module('lfsagAgApp')
-  .controller('AreaCtrl', ['$scope', '$stateParams', '$http', '$q', 'sharedAmper', function($scope, $stateParams, $http, $q, sharedAmper) {
+  .controller('AreaCtrl', ['$scope', '$stateParams', '$http', '$q', '$location', 'sharedAmper', function($scope, $stateParams, $http, $q, $location, sharedAmper) {
     $scope.nazioneP = $stateParams.nazioneP;
     $scope.areaP = $stateParams.areaP;
     $scope.piP = $stateParams.piP;
     $scope.svgLoaded = false;
     $scope.piLabel = "";
+    $scope.PiOverLabel = "";
     $scope.setPiLabel = function(label){
       $scope.piLabel = label;
+      $scope.PiOverLabel = label;
+    };
+    $scope.setPiOverLabel = function(label){
+      $scope.PiOverLabel = label;
     };
     $scope.locutori= [];
+    $scope.goToFrase = function(locId){
+      console.log(locId);//DEBUG
+      $location.url('/map/' + $scope.nazioneP + '/' + $scope.areaP + '/' + $scope.piP + '/' + locId);
+    };
 
     var svgLoadDeferred = $q.defer();
     var getNazioneDeferred = $q.defer();

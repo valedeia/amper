@@ -10,11 +10,17 @@
       "active": true,
       "sottoarea": "065",
       "locutori": {
-        "0655": {
-          "varietà": ""
+        "0657": {
+          "varietà": "",
+          "gruppofrase": "gruppo1"
         },
-        "0656": {
-          "varietà": ""
+        "0658": {
+          "varietà": "",
+          "gruppofrase": "gruppo1"
+        },
+        "0659": {
+          "varietà": "",
+          "gruppofrase": "gruppo1"
         }
       }
     },
@@ -22,7 +28,40 @@
       "label": "Frosinone",
       "active": true,
       "sottoarea": "065",
-      "locutori": ["0652", "0651", "1", "2", "3", "4", "5"]
+      "locutori": {
+        "0651": {
+          "varietà": "",
+          "gruppofrase": "gruppo1"
+        },
+        "0652": {
+          "varietà": "",
+          "gruppofrase": "gruppo1"
+        },
+        "0653": {
+          "varietà": "",
+          "gruppofrase": "gruppo1"
+        },
+        "0654": {
+          "varietà": "",
+          "gruppofrase": "gruppo1"
+        },
+        "0655": {
+          "varietà": "",
+          "gruppofrase": "gruppo1"
+        },
+        "0656": {
+          "varietà": "",
+          "gruppofrase": "gruppo1"
+        },
+        "0657": {
+          "varietà": "",
+          "gruppofrase": "gruppo1"
+        },
+        "0658": {
+          "varietà": "",
+          "gruppofrase": "gruppo1"
+        }
+      }
     }
   }
 }

@@ -1,19 +1,29 @@
 div.codicefrase {
 
   span{
-    width: 50px;
-    height: 50px;
+    width: 30px;  /*50*/
+    height: 30px; /*50*/
     margin-right: 2px;
     display: inline-block;
   }
 
   div.syntax {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px; /*20*/
+  }
+
+  div.listen {
+    display: inline-block;
+
+    img {
+      vertical-align: bottom;
+      height: 42px;
+      cursor: pointer;
+    }
   }
 
   div.syntax.usable {
-    span {
+    span:not(.blocked) {
       cursor: pointer;
     }
   }
@@ -21,6 +31,7 @@ div.codicefrase {
   div.S {
     span{
       border: 2px solid #973485;
+      background-color: white;
     }
     span.active{
       background-color: #973485;
@@ -30,6 +41,7 @@ div.codicefrase {
   div.V {
     span{
       border: 2px solid #178779;
+      background-color: white;
     }
     span.active{
       background-color: #178779;
@@ -39,6 +51,7 @@ div.codicefrase {
   div.O {
     span{
       border: 2px solid #779b3d;
+      background-color: white;
     }
     span.active{
       background-color: #779b3d;

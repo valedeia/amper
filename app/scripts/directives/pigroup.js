@@ -24,7 +24,7 @@ angular.module('lfsagAgApp')
           //console.log("class: " + elClass);//DEBUG
           var picode = element.attr("picode") || "";
           if (picode && scope.areaData.cities.hasOwnProperty(picode)){
-            scope.setPiLabel(scope.areaData.cities[picode].label || "");
+            scope.setPiOverLabel(scope.areaData.cities[picode].label || "");
             scope.$apply();
           }
         
@@ -34,7 +34,7 @@ angular.module('lfsagAgApp')
         element.on("mouseout", function () {
           //console.log("mouseover svg");//DEBUG
           var piSelectedLabel = (scope.piP) ? scope.piPselected : "";
-          scope.setPiLabel(piSelectedLabel);
+          scope.setPiOverLabel(piSelectedLabel);
           scope.$apply();
           angular.element("svg").find("circle.pigroup").stop().fadeTo(400,1);
         });
