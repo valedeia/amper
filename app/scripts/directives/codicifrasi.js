@@ -34,7 +34,7 @@ angular.module('lfsagAgApp')
     };//FIXME: da cambiare con factory sharedamper
 
     return {
-      template: '<div class="codicefrase"><div ng-if="goto" class="listen"><img src="images/amper/audio_ombra.svg" ng-click="gotoListen(struct)"/></div></div>',
+      template: '<div class="codicefrase"><div class="struct"></div><div ng-if="goto" class="listen"><img src="images/amper/audio_ombra.svg" ng-click="gotoListen(struct)"/></div></div>',
       restrict: 'E',
       scope: {
         type: '=',
@@ -63,7 +63,7 @@ angular.module('lfsagAgApp')
           angular.element(element).find("span.debug1").text("codicifrasi: type=" + scope.type + " value=" + scope.value + " struct=" + scope.struct + " blocked=" + scope.blocked);
         }
 
-        var destDiv = element.find("div.codicefrase");
+        var destDiv = element.find("div.struct");
         element.append("<span class=\"debug1\"></span>");
         var cells = scope.type.toString().split('');
         var syntax = scope.syntax.toString().split('');

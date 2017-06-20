@@ -7,6 +7,10 @@ div.codicefrase {
     display: inline-block;
   }
 
+  div.struct{
+    display: inline-block;
+  }
+
   div.syntax {
     display: inline-block;
     margin-right: 10px; /*20*/
@@ -17,7 +21,7 @@ div.codicefrase {
 
     img {
       vertical-align: bottom;
-      height: 42px;
+      height: 52px;
       cursor: pointer;
     }
   }

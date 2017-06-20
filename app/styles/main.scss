@@ -193,6 +193,11 @@ div.row.partners {
     width: 80%; /* da verificare poi con l'uso */
   }
 
+  .container.mainview {
+    width: 80%; /* da verificare poi con l'uso */
+    padding-top: 30px;
+  }
+
   /* Remove the padding we set earlier */
   .header,
   .marketing,
@@ -202,7 +207,7 @@ div.row.partners {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
