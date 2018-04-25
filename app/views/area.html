@@ -8,11 +8,9 @@
 <div class="descrizione" ng-class="{'col-md-8': !piP, 'col-md-4': piP}">
     <h2 class="title">{{nazioneData.label | uppercase}}</h2>
     <h3 class="title">{{areaLabel | uppercase}}</h3>
-    <p class="descrizione">
-        Possibile testo con descrizione... orem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porttitor in neque in ultricies. Curabitur faucibus, dui nec bibendum fermentum, purus ante vehicula arcu, at gravida orci enim eu sapien.
-    </p>
+    <p class="descrizione" ng-bind-html="areaData.descrizione"></p>
     <div class="guida" ng-hide="piP">
-        <h4 class="title">Guida</h4>
+        <h4 class="title"><i class="fa fa-info-circle" style="color:#A04779;" aria-hidden="true"></i> Guida</h4>
         <p class="descrizione">
             Selezionare un punto sulla mappa per continuare
         </p>

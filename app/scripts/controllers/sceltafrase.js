@@ -44,6 +44,7 @@ angular.module('lfsagAgApp')
           locNumberTemp++;
           if (locutore === $scope.locP){
             $scope.locNumber = locNumberTemp;
+            $scope.locutore = $scope.locutori[locutore];
             break;
           }
         }

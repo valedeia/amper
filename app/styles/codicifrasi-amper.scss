@@ -1,8 +1,8 @@
 div.codicefrase {
 
   span{
-    width: 30px;  /*50*/
-    height: 30px; /*50*/
+    width: 20px;  /* 30 50*/
+    height: 20px; /*30 50*/
     margin-right: 2px;
     display: inline-block;
   }
@@ -13,7 +13,7 @@ div.codicefrase {
 
   div.syntax {
     display: inline-block;
-    margin-right: 10px; /*20*/
+    margin-right: 6px; /*10 20*/
   }
 
   div.listen {
@@ -61,4 +61,9 @@ div.codicefrase {
       background-color: #779b3d;
     }
   }
+
+}
+
+.debug1 {
+  display: none;
 }

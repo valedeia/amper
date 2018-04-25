@@ -124,6 +124,14 @@ angular
         ncyBreadcrumb: {
           label: 'partners'
         }
+      }).state('bibliografia', {
+        url: '/bibliografia',
+        templateUrl: 'views/bibliografia.html',
+        controller: 'BibliografiaCtrl',
+        controllerAs: 'bibliografia',
+        ncyBreadcrumb: {
+          label: 'bibliografia'
+        }
       }).state('contatti', {
         url: '/contatti',
         templateUrl: 'views/contatti.html',

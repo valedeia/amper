@@ -241,6 +241,14 @@ div.row.partners {
   border: 5px solid rgba(234,195,220,1);
   margin-bottom: 20px;
 }
+.box-shadow-white {
+  -webkit-box-shadow: 10px 10px 0px 0px white;
+  -moz-box-shadow: 10px 10px 0px 0px white;
+  box-shadow: 10px 10px 0px 0px white;
+
+  border: 5px solid white;
+  margin-bottom: 20px;
+}
 
 div.guida{
   background-color: rgb(251, 243, 248);
@@ -255,6 +263,7 @@ div.cartina {
 
   div.area-label {
     text-align: right;
+    font-family: TitilliumBold;
   }
 }
 
@@ -334,20 +343,56 @@ div.sceltafrase {
 div.ascoltafrase {
   display: inline-block;
   background-color: #dbeabf;
+
   div.frase {
     text-align: center;
   }
+
+  div.info {
+    margin: 20px 0;
+    background: none;
+
+    div.box{
+      width: 200px;
+      text-align: center;
+      margin: auto;
+
+      div.locutore {
+        padding: 12px 0px;
+
+        div.locicon {
+          margin: auto;
+          width: 120px;
+        }
+      }
+    }
+  }
+
   .audio {
     margin: 20px 0;
     .aff {
       float: left;
+      padding: 8px 20px;
+      background-color: white;
+
+      h3 i {
+        margin-left: 8px;
+        color: red;
+      }
     }
     .int {
       float: right;
+      padding: 8px 20px;
+      background-color: white;
+
+      h3 i {
+        margin-left: 8px;
+        color: blue;
+      }
     }
   }
 
-  img {
+  div.img img {
     margin: 20px;
     width: 100%;
   }

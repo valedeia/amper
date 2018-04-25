@@ -71,6 +71,8 @@ angular.module('lfsagAgApp')
           var fraseObj = $scope.gruppoFrasiData[$scope.locutore.gruppofrase][$scope.structP];
           $scope.frase = fraseObj.frase;
           $scope.trascrizione = fraseObj.trascrizione;
+          $scope.fraseVisualizzata = fraseObj.frase;
+          
         }
 
       },

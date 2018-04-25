@@ -10,27 +10,27 @@ angular.module('lfsagAgApp')
   .directive('codicifrasi', function () {
 
     var structMap = {
-      "414": "pwk",
-      "413": "pwt",
-      "412": "pwp",
-      "4143": "pwg",
-      "4142": "pwx",
-      "4141": "pwj",
-      "4133": "pwd",
-      "4132": "pws",
-      "4131": "pwz",
-      "4123": "pwb",
-      "4122": "pwf",
-      "4121": "pwv",
-      "4314": "bwk",
-      "4313": "bwt",
-      "4312": "bwp",
-      "4214": "fwk",
-      "4213": "fwt",
-      "4212": "fwp",
-      "4114": "vwk",
-      "4113": "vwt",
-      "4112": "vwp"
+      "214": "pwk",
+      "213": "pwt",
+      "212": "pwp",
+      "2143": "pwg",
+      "2142": "pwx",
+      "2141": "pwj",
+      "2133": "pwd",
+      "2132": "pws",
+      "2131": "pwz",
+      "2123": "pwb",
+      "2122": "pwf",
+      "2121": "pwv",
+      "2314": "bwk",
+      "2313": "bwt",
+      "2312": "bwp",
+      "2214": "fwk",
+      "2213": "fwt",
+      "2212": "fwp",
+      "2114": "vwk",
+      "2113": "vwt",
+      "2112": "vwp"
     };//FIXME: da cambiare con factory sharedamper
 
     return {
