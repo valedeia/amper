@@ -1,5 +1,6 @@
 {
   "label": "Italia",
+  "descrizione": "In questo dominio è possibile distinguere le diverse aree dialettali individuate tradizionalmente da G.B. Pellegrini.<br>Per completezza, sono incluse nella cartina aree di competenza di altri comitati nazionali.<br>",
   "aree": {
     "centrale": {
       "active": true,

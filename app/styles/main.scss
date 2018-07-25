@@ -32,6 +32,10 @@ body {
   padding-right: 15px;
 }
 
+.info {        /*workaround for elliptical-sass*/
+  background-color: transparent !important;
+}
+
 .imgpopup1{
   background-color: #0d3349;
   color: #f5f5ff;

@@ -8,7 +8,7 @@
  */
 angular.module('lfsagAgApp')
   .directive('codicifrasi', function () {
-
+  
     var structMap = {
       "214": "pwk",
       "213": "pwt",
@@ -30,8 +30,51 @@ angular.module('lfsagAgApp')
       "2212": "fwp",
       "2114": "vwk",
       "2113": "vwt",
-      "2112": "vwp"
-    };//FIXME: da cambiare con factory sharedamper
+      "2112": "vwp",
+      "314": "twk",
+      "313": "twt",
+      "312": "twp",
+      "3143": "twg",
+      "3142": "twx",
+      "3141": "twj",
+      "3133": "twd",
+      "3132": "tws",
+      "3131": "twz",
+      "3123": "twb",
+      "3122": "twf",
+      "3121": "twv",
+      "3314": "dwk",
+      "3313": "dwt",
+      "3312": "dwp",
+      "3214": "swk",
+      "3213": "swt",
+      "3212": "swp",
+      "3114": "zwk",
+      "3113": "zwt",
+      "3112": "zwp",
+      "414": "kwk",
+      "413": "kwt",
+      "412": "kwp",
+      "4143": "kwg",
+      "4142": "kwx",
+      "4141": "kwj",
+      "4133": "kwd",
+      "4132": "kws",
+      "4131": "kwz",
+      "4123": "kwb",
+      "4122": "kwf",
+      "4121": "kwv",
+      "4314": "gwk",
+      "4313": "gwt",
+      "4312": "gwp",
+      "4214": "xwk",
+      "4213": "xwt",
+      "4212": "xwp",
+      "4114": "jwk",
+      "4113": "jwt",
+      "4112": "jwp"
+    };
+//FIXME: da cambiare con factory sharedamper
 
     return {
       template: '<div class="codicefrase"><div class="struct"></div><div ng-if="goto" class="listen"><img src="images/amper/audio_ombra.svg" ng-click="gotoListen(struct)"/></div></div>',

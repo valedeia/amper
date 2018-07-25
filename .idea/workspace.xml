@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dadebdba-de46-4ff3-8cd4-4815819a1c29" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/files/ampere/cartine/italia.svg" afterPath="$PROJECT_DIR$/app/files/ampere/cartine/italia.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/files/json/mappa_frasi.json" afterPath="$PROJECT_DIR$/app/files/json/mappa_frasi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/files/json/nazioni/italia/italia_centrale.json" afterPath="$PROJECT_DIR$/app/files/json/nazioni/italia/italia_centrale.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/amper/italia_aree_legenda.svg" afterPath="$PROJECT_DIR$/app/images/amper/italia_aree_legenda.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/ascoltafrase.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/ascoltafrase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/sceltafrase.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/sceltafrase.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/codicifrasi.js" afterPath="$PROJECT_DIR$/app/scripts/directives/codicifrasi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/codicifrasi-amper.scss" afterPath="$PROJECT_DIR$/app/styles/codicifrasi-amper.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/navbar-amper.scss" afterPath="$PROJECT_DIR$/app/styles/navbar-amper.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/area.html" afterPath="$PROJECT_DIR$/app/views/area.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/ascoltafrase.html" afterPath="$PROJECT_DIR$/app/views/ascoltafrase.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cartina.html" afterPath="$PROJECT_DIR$/app/views/cartina.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sceltafrase.html" afterPath="$PROJECT_DIR$/app/views/sceltafrase.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/files/ampere/cartine/italia_old.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/files/ampere/cartine/italia_old2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/files/ampere/cartine/italia_old3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/files/json/nazioni/italia.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/files/json/nazioni/italia.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/directives/codicifrasi.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/directives/codicifrasi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scripts/services/sharedamper.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/services/sharedamper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/cartina.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/cartina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/karma.conf.js" afterDir="false" />
     </list>
     <ignored path="lfsag_ag.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,34 +38,8 @@
       <file leaf-file-name="cartina.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/cartina.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="116" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="116" />
-              <folding>
-                <element signature="n#style#0;n#i#0;n#h4#0;n#div#0;n#p#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sceltafrase.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/sceltafrase.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="62" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="62" />
-              <folding>
-                <element signature="n#style#0;n#h4#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#1;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#h4#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="area.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/area.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state relative-caret-position="323">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#h4#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
@@ -78,126 +47,75 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="italia_centrale.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/files/json/nazioni/italia/italia_centrale.json">
+      <file leaf-file-name="francia.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/files/ampere/cartine/francia.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="326" lean-forward="false" selection-start-line="1" selection-start-column="326" selection-end-line="1" selection-end-column="326" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="89" column="81" lean-forward="false" selection-start-line="89" selection-start-column="81" selection-end-line="89" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="130" column="35" lean-forward="false" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="italia.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/files/ampere/cartine/italia.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="755" column="0" lean-forward="false" selection-start-line="755" selection-start-column="0" selection-end-line="755" selection-end-column="0" />
+            <state relative-caret-position="6562">
+              <caret line="823" column="40" selection-start-line="823" selection-start-column="40" selection-end-line="823" selection-end-column="40" />
               <folding>
-                <element signature="e#214#243#0" expanded="false" />
-                <element signature="e#330#364#0" expanded="false" />
-                <element signature="e#379#415#0" expanded="false" />
-                <element signature="e#430#468#0" expanded="false" />
-                <element signature="e#483#522#0" expanded="false" />
-                <element signature="e#546#578#0" expanded="false" />
-                <element signature="e#593#649#0" expanded="false" />
-                <element signature="e#664#696#0" expanded="false" />
-                <element signature="e#879#911#0" expanded="false" />
-                <element signature="e#1042#1074#0" expanded="false" />
-                <element signature="e#1090#1128#0" expanded="false" />
-                <element signature="e#1144#1184#0" expanded="false" />
-                <element signature="e#1200#1232#0" expanded="false" />
-                <element signature="e#1248#1280#0" expanded="false" />
-                <element signature="e#1296#1334#0" expanded="false" />
-                <element signature="e#1350#1391#0" expanded="false" />
-                <element signature="e#1416#1448#0" expanded="false" />
-                <element signature="e#1464#1501#0" expanded="false" />
-                <element signature="e#1565#1597#0" expanded="false" />
-                <element signature="e#1613#1654#0" expanded="false" />
-                <element signature="e#1945#2012#0" expanded="false" />
-                <element signature="n#pattern#0;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#pattern#0;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#1;n#pattern#0;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#2;n#pattern#0;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#3;n#pattern#0;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#pattern#2;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#pattern#3;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#pattern#4;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#pattern#4;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#1;n#pattern#4;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#2;n#pattern#4;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#pattern#5;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#pattern#5;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#1;n#pattern#5;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#2;n#pattern#5;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#pattern#6;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#pattern#6;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#1;n#pattern#6;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#2;n#pattern#6;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#pattern#7;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#1;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#2;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#4;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#g#0;n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#1;n#g#0;n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#2;n#g#0;n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#3;n#g#0;n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#6;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#8;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#0;n#g#8;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#1;n#g#8;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#9;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#10;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#12;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#13;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#14;n#svg#0;n#!!top" expanded="false" />
-                <element signature="n#g#15;n#svg#0;n#!!top" expanded="false" />
+                <element signature="n#defs#0;n#svg#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="italia.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/files/json/nazioni/italia.json">
+      <file leaf-file-name="sceltafrase.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/sceltafrase.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="612">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ascoltafrase.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/ascoltafrase.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ascoltafrase.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/ascoltafrase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="168" selection-start-line="10" selection-start-column="157" selection-end-line="10" selection-end-column="168" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sharedamper.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/sharedamper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3383">
+              <caret line="199" column="36" lean-forward="true" selection-start-line="199" selection-start-column="36" selection-end-line="199" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sceltafrase.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/sceltafrase.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="135" selection-start-line="24" selection-start-column="125" selection-end-line="24" selection-end-column="135" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codicifrasi.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/codicifrasi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-267">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -220,7 +138,17 @@
       <find>locNumber</find>
       <find>/pattern</find>
       <find>getClass</find>
+      <find>c</find>
+      <find>car</find>
+      <find>structSaved</find>
+      <find>structP</find>
+      <find>gotoListen</find>
+      <find>“</find>
+      <find>sharedAmper</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&quot;</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>D:\xampp\htdocs\lfsag_ag\app</dir>
     </dirStrings>
@@ -229,20 +157,9 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/scripts/directives/pirect.js" />
-        <option value="$PROJECT_DIR$/app/views/contatti.html" />
-        <option value="$PROJECT_DIR$/app/files/ampere/template_view.html" />
-        <option value="$PROJECT_DIR$/app/views/partners.html" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/carte.js" />
-        <option value="L:/GoogleDrive/Lavoro/amper_prova.html" />
         <option value="$PROJECT_DIR$/../lfsag_or/ipa/incostruzione.html" />
         <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/files/ampere/italia.svg" />
@@ -267,27 +184,33 @@
         <option value="$PROJECT_DIR$/app/files/templates/template_locicon.html" />
         <option value="$PROJECT_DIR$/app/scripts/directives/locicon.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/area.js" />
-        <option value="$PROJECT_DIR$/app/scripts/services/sharedamper.js" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/files/json/mappa_frasi.json" />
         <option value="$PROJECT_DIR$/app/files/ampere/cartine/italia/pi.svg" />
         <option value="$PROJECT_DIR$/app/files/ampere/cartine/italia/italia_regione_test.svg" />
-        <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/styles/codicifrasi-amper.scss" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/ascoltafrase.js" />
-        <option value="$PROJECT_DIR$/app/scripts/directives/codicifrasi.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/sceltafrase.js" />
         <option value="$PROJECT_DIR$/app/views/ascoltafrase.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/styles/navbar-amper.scss" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="L:/GoogleDrive/Lavoro/FbWorks/lfsag/Ampere/nuovo/elementi_Italia/_ottimizzati/Artboard 10.svg" />
-        <option value="$PROJECT_DIR$/app/views/cartina.html" />
         <option value="$PROJECT_DIR$/app/views/sceltafrase.html" />
         <option value="$PROJECT_DIR$/app/files/ampere/cartine/italia.svg" />
         <option value="$PROJECT_DIR$/app/files/json/nazioni/italia/italia_centrale.json" />
         <option value="$PROJECT_DIR$/app/views/area.html" />
+        <option value="$PROJECT_DIR$/app/styles/main.scss" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="L:/GoogleDrive/Lavoro/FbWorks/lfsag/Ampere/nuovo/portogallo/optimized/Portogallo.svg" />
+        <option value="$PROJECT_DIR$/app/files/json/nazioni/italia.json" />
+        <option value="$PROJECT_DIR$/app/views/cartina.html" />
+        <option value="$PROJECT_DIR$/app/files/json/nazioni/francia.json" />
+        <option value="$PROJECT_DIR$/app/files/json/nazioni/portogallo.json" />
+        <option value="$PROJECT_DIR$/app/files/ampere/cartine/portogallo.svg" />
+        <option value="$PROJECT_DIR$/app/files/ampere/cartine/francia.svg" />
+        <option value="$PROJECT_DIR$/app/scripts/services/sharedamper.js" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/codicifrasi.js" />
       </list>
     </option>
   </component>
@@ -304,7 +227,32 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/bower_components/angular-animate/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/angular-bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/angular-cookies/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/angular-jqcloud/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/angular-messages/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/angular-mocks/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/angular-resource/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/angular-route/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/angular-sanitize/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/angular-touch/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/angular/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/async-import/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/async/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/bootstrap-sass-official/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/fancybox/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/gsap-import/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/gsap/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/jqcloud2/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/jquery-import/package.json" />
+      <path value="$PROJECT_DIR$/bower_components/webcomponentsjs/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -312,23 +260,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,6 +311,44 @@
               <item name="lfsag_ag" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="ampere" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lfsag_ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lfsag_ag" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="ampere" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="italia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lfsag_ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lfsag_ag" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="ampere" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="italia" type="462c0819:PsiDirectoryNode" />
+              <item name="roma" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lfsag_ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lfsag_ag" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="ampere" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="italia" type="462c0819:PsiDirectoryNode" />
+              <item name="roma" type="462c0819:PsiDirectoryNode" />
+              <item name="0657" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lfsag_ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lfsag_ag" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
               <item name="json" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -412,6 +385,13 @@
               <item name="lfsag_ag" type="b2602c69:ProjectViewProjectNode" />
               <item name="lfsag_ag" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="directives" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lfsag_ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lfsag_ag" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -424,26 +404,29 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/xampp/htdocs/lfsag_ag/app/styles/main.scss" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="js-jscs-package" value="D:\xampp\htdocs\lfsag_ag\node_modules\jscs" />
     <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/xampp/htdocs/lfsag_ag/app/styles/main.scss" />
     <property name="nodejs_interpreter_path" value="C:/prog/nodejs/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -466,24 +449,10 @@
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
@@ -494,18 +463,7 @@
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -515,30 +473,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -551,15 +492,12 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
@@ -842,6 +780,13 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -875,6 +820,12 @@
       <properties />
       <listeners />
       <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
@@ -998,9 +949,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1068,11 +1024,15 @@
       <workItem from="1511100625460" duration="5307000" />
       <workItem from="1511802797827" duration="1821000" />
       <workItem from="1516545066844" duration="11912000" />
+      <workItem from="1524669470285" duration="5507000" />
+      <workItem from="1524751066597" duration="2873000" />
+      <workItem from="1525106735124" duration="4362000" />
+      <workItem from="1525167589904" duration="1382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303401000" />
+    <option name="totallyTimeSpent" value="317525000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1086,36 +1046,37 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16311301" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733408" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295838" />
+      <window_info id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="npm" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Designer" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info id="Grunt " order="3" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32733408" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1132,284 +1093,118 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/jshint/dist/jshint.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17012" column="2" lean-forward="false" selection-start-line="17012" selection-start-column="2" selection-end-line="17012" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jshint/dist/jshint-rhino.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17014" column="2" lean-forward="false" selection-start-line="17014" selection-start-column="2" selection-end-line="17014" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/imageonload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/pirect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/amper/italia_aree_legenda.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="118" column="92" lean-forward="false" selection-start-line="118" selection-start-column="92" selection-end-line="118" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/cartina.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/files/templates/template_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/locicon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="63" column="39" lean-forward="false" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/areagroup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/imgpopup1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/directives/pigroup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="47" column="102" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="93" />
+        <state>
+          <caret line="47" column="102" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/files/templates/template_locicon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state>
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/carte_old.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="16" />
+        <state>
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/carte_old.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="51" />
+        <state>
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="4" selection-end-line="17" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/files/ampere/template_view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="30" column="80" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="30" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/sharedamper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="184" column="28" lean-forward="false" selection-start-line="184" selection-start-column="28" selection-end-line="184" selection-end-column="28" />
+        <state>
+          <caret line="30" column="80" selection-start-line="6" selection-start-column="4" selection-end-line="30" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="426" column="12" lean-forward="false" selection-start-line="426" selection-start-column="12" selection-end-line="426" selection-end-column="12" />
+        <state>
+          <caret line="426" column="12" selection-start-line="426" selection-start-column="12" selection-end-line="426" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/fonts/titillium/generator_config.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/fonts/titillium/OFL-titillium.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/fonts/titillium/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="186" column="32" lean-forward="false" selection-start-line="186" selection-start-column="28" selection-end-line="186" selection-end-column="32" />
+        <state>
+          <caret line="186" column="32" selection-start-line="186" selection-start-column="28" selection-end-line="186" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/files/italy_vale.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/files/cartina.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state>
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/files/ampere/cartine/italia/pi.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/carte.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/files/ampere/cartine/italia_old.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3451">
-          <caret line="1" column="95" lean-forward="false" selection-start-line="1" selection-start-column="95" selection-end-line="1" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/files/json/mappa_locutori.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/pi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/ascoltafrase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/files/ampere/cartine/italia_old.svg" />
     <entry file="file://$PROJECT_DIR$/app/styles/codicifrasi-amper.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/files/json/mappa_frasi.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/directives/codicifrasi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding />
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/area.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/sceltafrase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="27" />
-          <folding />
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding />
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/files/ampere/cartine/italia/italia_centrale.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/navbar-amper.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="130" column="35" lean-forward="false" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
-          <folding />
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1417,39 +1212,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="877" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="877" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="89" column="81" lean-forward="false" selection-start-line="89" selection-start-column="81" selection-end-line="89" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/guida.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/ascoltafrase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="118" lean-forward="true" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/bibliografia.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -1457,115 +1229,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="603">
           <caret line="263" column="39" lean-forward="true" selection-start-line="263" selection-start-column="39" selection-end-line="263" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/files/json/nazioni/italia.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="7" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/bower_components/elliptical-class/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/files/ampere/cartine/italia.svg">
+    <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="755" column="0" lean-forward="false" selection-start-line="755" selection-start-column="0" selection-end-line="755" selection-end-column="0" />
-          <folding>
-            <element signature="e#214#243#0" expanded="false" />
-            <element signature="e#330#364#0" expanded="false" />
-            <element signature="e#379#415#0" expanded="false" />
-            <element signature="e#430#468#0" expanded="false" />
-            <element signature="e#483#522#0" expanded="false" />
-            <element signature="e#546#578#0" expanded="false" />
-            <element signature="e#593#649#0" expanded="false" />
-            <element signature="e#664#696#0" expanded="false" />
-            <element signature="e#879#911#0" expanded="false" />
-            <element signature="e#1042#1074#0" expanded="false" />
-            <element signature="e#1090#1128#0" expanded="false" />
-            <element signature="e#1144#1184#0" expanded="false" />
-            <element signature="e#1200#1232#0" expanded="false" />
-            <element signature="e#1248#1280#0" expanded="false" />
-            <element signature="e#1296#1334#0" expanded="false" />
-            <element signature="e#1350#1391#0" expanded="false" />
-            <element signature="e#1416#1448#0" expanded="false" />
-            <element signature="e#1464#1501#0" expanded="false" />
-            <element signature="e#1565#1597#0" expanded="false" />
-            <element signature="e#1613#1654#0" expanded="false" />
-            <element signature="e#1945#2012#0" expanded="false" />
-            <element signature="n#pattern#0;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#pattern#0;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#pattern#0;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#2;n#pattern#0;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#3;n#pattern#0;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#pattern#2;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#pattern#3;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#pattern#4;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#pattern#4;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#pattern#4;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#2;n#pattern#4;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#pattern#5;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#pattern#5;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#pattern#5;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#2;n#pattern#5;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#pattern#6;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#pattern#6;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#pattern#6;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#2;n#pattern#6;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#pattern#7;n#defs#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#2;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#0;n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#g#0;n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#2;n#g#0;n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#3;n#g#0;n#g#0;n#g#4;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#6;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#g#8;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#9;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#10;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#12;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#13;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#14;n#svg#0;n#!!top" expanded="false" />
-            <element signature="n#g#15;n#svg#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/files/json/nazioni/italia/italia_centrale.json">
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="326" lean-forward="false" selection-start-line="1" selection-start-column="326" selection-end-line="1" selection-end-column="326" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cartina.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="116" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="116" />
-          <folding>
-            <element signature="n#style#0;n#i#0;n#h4#0;n#div#0;n#p#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sceltafrase.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="62" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#h4#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#1;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#h4#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1573,17 +1258,161 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="24" column="69" lean-forward="true" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" column="35" selection-start-line="130" selection-start-column="35" selection-end-line="130" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://L:/GoogleDrive/Lavoro/FbWorks/lfsag/Ampere/nuovo/portogallo/optimized/Portogallo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="237" column="6" selection-start-line="237" selection-start-column="6" selection-end-line="237" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pi.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/area.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="63" lean-forward="false" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/files/json/nazioni/italia/italia_centrale.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="328" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="328" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/files/json/nazioni/italia.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="236" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/files/json/nazioni/portogallo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/files/ampere/cartine/portogallo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="268" column="8" selection-start-line="268" selection-start-column="8" selection-end-line="268" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/files/ampere/cartine/italia.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2737">
+          <caret line="755" selection-start-line="755" selection-end-line="755" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/files/json/nazioni/francia.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/pi.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cartina.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#i#0;n#h4#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/files/json/mappa_locutori.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/files/ampere/cartine/francia.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6562">
+          <caret line="823" column="40" selection-start-line="823" selection-start-column="40" selection-end-line="823" selection-end-column="40" />
+          <folding>
+            <element signature="n#defs#0;n#svg#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/files/json/mappa_frasi.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="45" column="74" lean-forward="true" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/sceltafrase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/sceltafrase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="135" selection-start-line="24" selection-start-column="125" selection-end-line="24" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/ascoltafrase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="168" selection-start-line="10" selection-start-column="157" selection-end-line="10" selection-end-column="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/ascoltafrase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/sharedamper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3383">
+          <caret line="199" column="36" lean-forward="true" selection-start-line="199" selection-start-column="36" selection-end-line="199" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/codicifrasi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>

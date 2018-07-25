@@ -20,135 +20,177 @@ angular.module('lfsagAgApp')
     var promiseArea;
     var promiseGruppoFrasi;
     var nomeArea="";
-
+  
     var structMap = {
-      "414": "pwk",
-      "413": "pwt",
-      "412": "pwp",
-      "4143": "pwg",
-      "4142": "pwx",
-      "4141": "pwj",
-      "4133": "pwd",
-      "4132": "pws",
-      "4131": "pwz",
-      "4123": "pwb",
-      "4122": "pwf",
-      "4121": "pwv",
-      "4314": "bwk",
-      "4313": "bwt",
-      "4312": "bwp",
-      "4214": "fwk",
-      "4213": "fwt",
-      "4212": "fwp",
-      "4114": "vwk",
-      "4113": "vwt",
-      "4112": "vwp"
+      "214": "pwk",
+      "213": "pwt",
+      "212": "pwp",
+      "2143": "pwg",
+      "2142": "pwx",
+      "2141": "pwj",
+      "2133": "pwd",
+      "2132": "pws",
+      "2131": "pwz",
+      "2123": "pwb",
+      "2122": "pwf",
+      "2121": "pwv",
+      "2314": "bwk",
+      "2313": "bwt",
+      "2312": "bwp",
+      "2214": "fwk",
+      "2213": "fwt",
+      "2212": "fwp",
+      "2114": "vwk",
+      "2113": "vwt",
+      "2112": "vwp",
+      "314": "twk",
+      "313": "twt",
+      "312": "twp",
+      "3143": "twg",
+      "3142": "twx",
+      "3141": "twj",
+      "3133": "twd",
+      "3132": "tws",
+      "3131": "twz",
+      "3123": "twb",
+      "3122": "twf",
+      "3121": "twv",
+      "3314": "dwk",
+      "3313": "dwt",
+      "3312": "dwp",
+      "3214": "swk",
+      "3213": "swt",
+      "3212": "swp",
+      "3114": "zwk",
+      "3113": "zwt",
+      "3112": "zwp",
+      "414": "kwk",
+      "413": "kwt",
+      "412": "kwp",
+      "4143": "kwg",
+      "4142": "kwx",
+      "4141": "kwj",
+      "4133": "kwd",
+      "4132": "kws",
+      "4131": "kwz",
+      "4123": "kwb",
+      "4122": "kwf",
+      "4121": "kwv",
+      "4314": "gwk",
+      "4313": "gwt",
+      "4312": "gwp",
+      "4214": "xwk",
+      "4213": "xwt",
+      "4212": "xwp",
+      "4114": "jwk",
+      "4113": "jwt",
+      "4112": "jwp"
     };
 
     var structMapInverse = {
       "pwk" : {
         "type": "424",
-        "val": "414",
+        "val": "214",
         "syntax": "SVO"
       },
       "pwt" : {
         "type": "424",
-        "val": "413",
+        "val": "213",
         "syntax": "SVO"
       },
       "pwp" : {
         "type": "424",
-        "val": "412",
+        "val": "212",
         "syntax": "SVO"
       },
       "pwg" : {
         "type": "4243",
-        "val": "4143",
+        "val": "2143",
         "syntax": "SVOO"
       },
       "pwx" : {
         "type": "4243",
-        "val": "4142",
+        "val": "2142",
         "syntax": "SVOO"
       },
       "pwj" : {
         "type": "4243",
-        "val": "4141",
+        "val": "2141",
         "syntax": "SVOO"
       },
       "pwd" : {
         "type": "4243",
-        "val": "4133",
+        "val": "2133",
         "syntax": "SVOO"
       },
       "pws" : {
         "type": "4243",
-        "val": "4132",
+        "val": "2132",
         "syntax": "SVOO"
       },
       "pwz" : {
         "type": "4243",
-        "val": "4131",
+        "val": "2131",
         "syntax": "SVOO"
       },
       "pwb" : {
         "type": "4243",
-        "val": "4123",
+        "val": "2123",
         "syntax": "SVOO"
       },
       "pwf" : {
         "type": "4243",
-        "val": "4122",
+        "val": "2122",
         "syntax": "SVOO"
       },
       "pwv" : {
         "type": "4243",
-        "val": "4121",
+        "val": "2121",
         "syntax": "SVOO"
       },
       "bwk" : {
         "type": "4324",
-        "val": "4314",
+        "val": "2314",
         "syntax": "SSVO"
       },
       "bwt" : {
         "type": "4324",
-        "val": "4313",
+        "val": "2313",
         "syntax": "SSVO"
       },
       "bwp" : {
         "type": "4324",
-        "val": "4312",
+        "val": "2312",
         "syntax": "SSVO"
       },
       "fwk" : {
         "type": "4324",
-        "val": "4214",
+        "val": "2214",
         "syntax": "SSVO"
       },
       "fwt" : {
         "type": "4324",
-        "val": "4213",
+        "val": "2213",
         "syntax": "SSVO"
       },
       "fwp" : {
         "type": "4324",
-        "val": "4212",
+        "val": "2212",
         "syntax": "SSVO"
       },
       "vwk" : {
         "type": "4324",
-        "val": "4114",
+        "val": "2114",
         "syntax": "SSVO"
       },
       "vwt" : {
         "type": "4324",
-        "val": "4113",
+        "val": "2113",
         "syntax": "SSVO"
       },
       "vwp" : {
         "type": "4324",
-        "val": "4112",
+        "val": "2112",
         "syntax": "SSVO"
       }
     };
